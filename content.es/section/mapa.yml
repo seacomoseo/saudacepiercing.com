@@ -3,6 +3,4 @@ hanchor: Mapa
 menu_button: hide
 ph: true
 size: fluid
-map:
-  image: mapa.png
-  anchor: Ronda de Levante, 1, 30008 Murcia
+map: Ronda de Levante, 1, 30008 Murcia

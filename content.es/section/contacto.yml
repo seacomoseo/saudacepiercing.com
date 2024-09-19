@@ -1,35 +1,43 @@
 name: Contacto
 title: Contacto
-subtitle: ¿En qué podemos ayudarte?
-icon: paper-plane
+subtitle: ¡Cuéntame tus ideas!
 menu_button: link
 box:
   columns: 2
+  gap: 5
 boxes:
-- social:
-  - link: https://www.facebook.com/QuantumFracture
-  - link: https://www.instagram.com/quantumfracture/
-  - link: https://www.youtube.com/channel/UCbdSYaPD-lr1kW27UJuk8Pw
-  - link: https://twitter.com/QuantumFracture
-  - link: https://www.linkedin.com/company/quantum-fracture
-  - link: https://github.com/lorensansol
-  - link: https://mastersoflol.com/collections/quantumfracture?YTC
+- span: 1.3
   contact:
   - type: schedule
     days: Lunes a Viernes
-    hours: 9:00 - 12:30 y 14:30 - 20:00
+    hours: 11:00 - 14:30 y 17:00 - 20:30
     full: true
   - type: phone
-    label: 111 222 333
+    label: '{{% param phones.0 %}}'
   - type: whatsapp
-    label: 111 222 333
-    button: link
+    label: '{{% param phones.0 %}}'
+    # button: link
+  - type: custom
+    icon: instagram
+    label: '@saudace_piercing'
+    link: https://www.instagram.com/saudace_piercing/
+    ofuscate: true
+    button: invert
+    font_alt: true
+    # full: true
+  - type: custom
+    icon: sparkle
+    label: Pide tu cita
+    link: https://inkoru.com/SCkjCb
+    ofuscate: true
+    # font_alt: true
+    # full: true
   - type: mail
-    label: info@sansoul.es
-    full: true
+    label: saudacepiercing@gmail.com
   - type: address
-    label: Ronda de Levante, 1, 30008 Murcia
-    anchor: Sea Como SEO, Ronda de Levante, 1, 30008 Murcia
+    label: '{{% param address.street %}}, {{% param address.pc %}} {{% param address.locality %}}'
+    anchor: '{{% address-url %}}'
+    button: invert
   inputs:
   - type: text
     name: Nombre
@@ -42,9 +50,10 @@ boxes:
   - type: textarea
     name: Mensaje
     required: true
-- view: map
+- span: .7
+  view: map
   bg: mapa.png
-  link: '{{% map-url "Sea Como SEO, Ronda de Levante, 1, 30008 Murcia" %}}'
+  link: '{{% address-url %}}'
   ofuscate: true
   rate: 1x1
   button: hide

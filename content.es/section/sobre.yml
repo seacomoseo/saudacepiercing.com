@@ -1,0 +1,74 @@
+name: Sobre
+id: sobre
+title: Sobre Saudace
+subtitle: ¿De qué va esto?
+
+box:
+  gap_y: 3
+
+boxes:
+
+- box:
+    columns: 2
+    gap: 5
+  boxes:
+  - order: 2
+    image: piercings-seguros.webp
+    ratio: 1x1
+  - align: left
+    align_max: right
+    align_y: center
+    hs: 3
+    title: Piercings Seguros
+    subtitle: Y con los mejores y modernos materiales
+    content: |
+      El piercing es una técnica milenaria y hay que tratarlo con muchísimo respeto, si no se hace por un/a profesional puede tener consecuencias irreversibles.
+
+      Si no sabes cuál sería la mejor elección para ti, puedes contactar conmigo, y te asesoraré hasta llegar a la mejor opción para ti.
+
+      Os recuerdo que no todas las anatomías son aptas para todas las perforaciones pero siempre podremos encontrar una solución viable y bonita para ti.
+
+      También puedes inspirarte con los trabajos que encontrarás en esta página.
+
+      [btn icon:sparkles Ver Praxis](#praxis)
+
+- box:
+    columns: 2
+    gap: 5
+  boxes:
+  - ratio: 1x1
+    image: andrea.png
+    # bg: andrea.webm
+    parallax: box
+  - align: left
+    align_y: center
+    hs: 3
+    title: ¿Quién es Saudace?
+    subtitle: Soy Andrea Marín, anilladora Murciana
+    content: |
+      Tengo 26 años y me dedico al arte del body piercing desde el 2017, siempre me ha interesado el mundo del tattoo y del piercing, por lo que empecé muy joven de forma autodidacta.
+
+      Actualmente **es mi pasión** y por ello siempre estoy en continua formación. Para ofrecer el mejor servicio posible, estar actualizada y seguir aprendiendo para vosotrxs. 
+
+      Mi trabajo no acaba cuando te realices tu perforación, si no que haremos un **seguimiento** y estaré disponible para ti, hasta que tu perforación esté totalmente sana.
+
+      [btn icon:sparkle Pedir Cita](/pide-tu-cita/)
+
+- box:
+    columns: 2
+    gap: 5
+  boxes:
+  - order: 2
+    bg: https://saudacebodypiercer.com/wp-content/uploads/2022/09/4.0-Elige-la-mejor-joyeria-.webp
+  - align: left
+    align_max: right
+    align_y: center
+    hs: 3
+    title: La mejor joyería
+    subtitle: Trabajo exclusivamente con joyería biocompatible
+    content: |
+      La cuál asegurará tu cicatrizació, utilizo materiales como el titanio grado implante certificado ASTMF136, oro de 14k y 18k, niobio y vidrio de borosilicato, siempre de rosca interna para asegurar una curación mejor y una menor acumulacion de suciedad en tu joya.
+
+      Dispongo de joyería en stock para todos los gustos. Desde engarces, ciconias, ópalos o opal stone (piedras naturales) de todos los colores y diferentes formas.
+
+      [btn icon:gem Ver Joyería](/servicios-top/)

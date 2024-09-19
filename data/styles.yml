@@ -1,18 +1,18 @@
 icons:
-  type: solid
+  type: light
   sharp: true
   emojis: ''
   emojis_default: false
 fonts:
-  google: true
+  google: false
   base:
     family: Montserrat
     weight: 400
-    bold: 0
+    bold: 600
     italic: false
     line_height: 1.25
   cursive:
-    family: Dancing Script
+    family: Birds of Paradise
     weight: 400
     bold: 0
     italic: false
@@ -20,17 +20,17 @@ fonts:
     size: 1
     top: 0
   title:
-    family: Montserrat
-    weight: 800
+    family: Amika Blackletter
+    weight: 400
     bold: 0
     italic: false
     line_height: 1.25
     size: 1
-    top: 0
+    top: 0.125
   blockquote_cursive: true
 colors:
   main:
-    color: '#bdd5ea'
+    color: '#fdc31e'
     light: ''
     dark: ''
     contrast: text
@@ -40,7 +40,7 @@ colors:
     dark: ''
     contrast: all
   link:
-    color: '#fe5f55'
+    color: ''
     light: ''
     dark: ''
     contrast: text
@@ -48,19 +48,19 @@ colors:
     white: '#fff'
     light: '#eee'
     grey: '#767676'
-    dark: '#282525'
-    black: '#000'
+    dark: '#112329'
+    black: '#1d1d1b'
 rounded:
-  radius: 0.33
+  radius: 1.33
   chamfer: true
 buttons:
   sides_round: false
   icon_circle: false
-  deep: true
-  outline: false
+  deep: false
+  outline: true
   font_main:
-    type: title
-    bold: false
+    type: base
+    bold: true
     uppercase: true
   font_alt:
     type: base
@@ -71,7 +71,7 @@ inputs:
 shadow:
   left: 0.15
   top: 0.15
-  blur: 0
+  blur: 0.15
   color: black
   alpha: 0.85
 performance:

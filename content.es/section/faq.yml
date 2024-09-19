@@ -1,7 +1,6 @@
 name: FAQ
 title: FAQ
 subtitle: Preguntas Frecuentes
-icon: circle-question
 size: md
 collapsibles:
 - title: ¿Una pregunta de ejemplo?

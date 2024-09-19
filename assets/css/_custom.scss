@@ -1,13 +1,40 @@
-// Header 
-#body-home #header {
-  @mixin show-from($delay) { animation: show-from .5s (.5 + .25s * $delay) both; }
-  .image                   { @include show-from(0); --show-from: scale(3); }
-  .box__title              { @include show-from(1); }
-  .subtitle                { @include show-from(2); }
-  .description p           { @include show-from(3); }
-  .description .buttons    { @include show-from(4); }
-
-  .image path {
-    fill: var(--text);
+// Header
+@keyframes logo-intro {
+  0%,
+  75% {
+    transform: translate(var(--logo-x, 0em), calc(50vh - 50% - var(--logo-y, 10em))) scale(var(--logo-z, 1.5));
   }
+}
+#body-home #header {
+  .box--1 {
+    .image {
+      animation: logo-intro 2s 0s both;
+      @media (min-width: $screen-xl) {
+        --logo-x: 13em;
+        --logo-y: 11em;
+        --logo-z: 2;
+      }
+    }
+  }
+  // .box--1 .image              { @include show-from(0); --show-from: scale(3); }
+  @mixin show-from($delay) { animation: show-from .5s (.5s + .25s * $delay) both; }
+  .box--1 .box__title             { @include show-from(1); }
+  .box--1 .subtitle               { @include show-from(2); }
+  .box--1 .content p:nth-child(1) { @include show-from(3); }
+  .box--1 .content p:nth-child(2) { @include show-from(4); }
+  .box--1 .content .buttons       { @include show-from(5); }
+  .box--2                         { @include show-from(5); }
+}
+// Contacto
+@media (min-width: $screen-lg) {
+  .contact > *:not(.contact__full) {
+    width: calc((100% - 1em) / 2);
+  }
+}
+
+// Transparent gradient in person
+#sobre .box--2 .image__inner {
+  --mask-image: linear-gradient(#000 85%, transparent);
+  -webkit-mask-image: var(--mask-image);
+  mask-image: var(--mask-image);
 }

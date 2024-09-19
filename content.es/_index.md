@@ -1,12 +1,11 @@
 ---
 slug: inicio
 title: Inicio
-image: fondo.jpg
+image: base/logo.png
 translationKey: home
 
-seo: ''
-description: llll➤ SanSoul es un tema de Hugo con alma para webs de servicios ✅ por lorensansol ☎️ 123 456 789.
-
+seo: Saudace Piercing & Fine Jewelry 🧷👂🏻 Tienda en Murcia Centro
+description: llll➤ Estudio especializado en body piercing. ✅ Perforaciones Seguras, Joyería Biocompatible, Diseños Personalizados, Seguimiento, Toothgems, Anodizado...
 menu:
   logo: false
   sticky: auto
@@ -16,11 +15,11 @@ menu:
 callnow:
   show: auto
 section:
-- underline: true
-  uppercase: true
+- color: dark
+  underline: true
   alpha: .7
   parallax: fix
-  divider: curve-side
+  divider: curve-corner-op
   flip_x: false
   flip_y: false
 - color: white
@@ -29,52 +28,56 @@ section:
 
 sections:
 - file: _header
-- file: nosotros
 - file: servicios
   modals:
   - file: ejemplo
-- file: proceso
-- file: fotos
-- file: noticias
+- file: sobre
+  modals:
+  - file: praxis
+- file: joyeria
+- file: curaciones
 - file: faq
-- file: resenas
+- file: testimonios
 - file: contacto
-- file: mapa
+# - file: mapa
 
 base: organization
 types:
 - LocalBusiness
 - Organization
 names:
-- Tema SanSoul de Hugo EJEMPLO
-- SanSoul
-description: SanSoul es el alma del tema Hugo de lorensansol con el que generar sitios web estáticos, puedes copiarlo y usarlo como quieras
-legal: null
-nif: null
-email: null
+- Saudace Piercing & Fine Jewelry
+- Saudace Piercing & Fine Jewelry 🧷👂🏻
+- Saudace Piercing 🧷👂🏻
+legal: Andrea Marín Escribano
+nif: 48746856N
+email: saudacepiercing@gmail.com
+summary: Estudio especializado en body piercing con perforaciones seguras y joyería biocompatible en Murcia centro. Ofrecemos diseños personalizados y seguimiento post-perforación. También realizamos toothgems, anodizado de joyería y micropigmentación.
 logo: base/logo.svg
 images:
-- fondo.jpg
+- base/logo.svg
+- base/logo-alt.svg
+- base/logo-tr.svg
+- base/logo-h.svg
+- base/icon.svg
+- intro.jpg
 social:
-- https://www.facebook.com/QuantumFracture
-- https://www.instagram.com/quantumfracture/
-- https://g.page/r/CQI3T3wmeAB6EBM
+- https://www.instagram.com/saudace_piercing/
+- https://www.instagram.com/andrea_bodypiercer_/
+- https://www.facebook.com/piercingsmurcia/
 phones:
-- 123456789
-- +34 987 654 321
+- +34 667 53 52 48
 address:
-  name: Sea Como SEO
-  street: Ronda de Levante, 1
-  pc: '30008'
+  name: Saudace Piercing & Fine Jewelry
+  street: C. Merced, 14
+  pc: '30001'
   locality: Murcia
-  region: Murcia
+  region: Región de Murcia
   country: ES
-  geo: '{"type":"Point","coordinates":[-1.1306520,37.9922180]}'
-  link: https://g.page/r/CQI3T3wmeAB6EBM
+  geo: '{"type":"Point","coordinates":[-1.1275327,37.9874351]}'
+  link: https://maps.google.com/?cid=5556792309972931851
 areas:
-- Región de Murcia
-- Internacional
-- Online
+- Murcia
 open:
 - days:
   - monday
@@ -82,7 +85,7 @@ open:
   - wednesday
   - thursday
   - friday
-  opens: 9:00
+  opens: 11:00
   closes: 14:00
 - days:
   - monday
@@ -91,23 +94,23 @@ open:
   - thursday
   - friday
   opens: 17:00
-  closes: 20:00
-- days:
-  - saturday
-  # - sunday
-  opens: 9:00
-  closes: 13:00
-prices: €€
+  closes: 20:30
+prices: null
 services:
-- title: Diseño Web
-  description: null
-  price: 800.00
-  area: Internacional
-- title: SEO
-  description: null
-  price: 250.00
-  area: Internacional
-- title: SEM
+- title: Pody Piercing
+  description: Asesoramiento, joyería, perforaciones y seguimiento
+  area: Murcia
+- title: Diseños de Oreja
+  description: Diseños personalizados de joyería y perforaciones para oreja
+  area: Murcia
+- title: Gemas Dentales / Toothgems
   description: Descripción de ejemplo
-  area: Internacional
+  area: Murcia
+- title: Anodizado
+  description: Descripción de ejemplo
+  area: Murcia
+- title: Micropigmentación
+  description: Descripción de ejemplo
+  area: Murcia
+
 ---

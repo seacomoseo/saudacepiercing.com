@@ -1,10 +1,17 @@
 background:
-  color: light
+  color: white
 menu:
   logo: true
   logo_align: center
   transparent: true
   size: sm
+  es:
+    image: base/logo-h.svg
+  en:
+    image: base/logo-h.svg
+modal:
+  size: lg
+  color: dark
 list:
   columns: 3
   declive: true

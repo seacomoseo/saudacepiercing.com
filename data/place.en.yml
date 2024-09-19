@@ -1,0 +1,69 @@
+base: organization
+types:
+- LocalBusiness
+- Organization
+names:
+- Saudace Piercing & Fine Jewelry
+legal: null
+nif: null
+summary: null
+logo: base/icon.svg
+images: []
+social: []
+phones:
+- +34 667 53 52 48
+address:
+  name: Saudace Piercing & Fine Jewelry
+  street: null
+  pc: "30001"
+  locality: Murcia
+  region: Región de Murcia
+  country: ES
+  geo: '{"type":"Point","coordinates":[-1.1275327,37.9874351]}'
+  link: https://maps.google.com/?cid=5556792309972931851
+areas:
+- Región de Murcia
+open:
+- days:
+  - monday
+  - tuesday
+  - wednesday
+  - thursday
+  - friday
+  opens: 11:00
+  closes: 14:00
+prices: null
+services: []
+reviews:
+- title: Kevin Mendez
+  content: |
+    Simplemente brutal
+    🤘🏽🤘🏽🤘🏽🤘🏽
+    I’ll be back 😎
+  rating: 5
+  date: 2024-01-16 10:40:12
+  image: https://lh3.googleusercontent.com/a/ACg8ocLYlwU390Skkb6C-k72-gy2d5Ww2NSkJpzQFdgMTogVCtnroA=s136
+- title: N Rodriguez
+  content: Andrea is a professional with a lot of experience, she makes you feel safe and advises you on the best option for your piercing, the jewelry she has is all beautiful and the place is clean, well decorated, very well cared for. It has become my trusted studio every time I want a new piercing!
+  rating: 5
+  date: 2024-09-08 07:11:27
+  image: https://lh3.googleusercontent.com/a/ACg8ocIW4v_v4YF6fUoK-elXb4RcNO8uzL8wH9d0XxLmixVQcGUPJA=s136-ba2
+- title: Ruben Modenes
+  content: |-
+    New premises in the center of Murcia.
+
+    As soon as I entered I really liked the order and cleanliness. The treatment by the bander was a 10, very friendly and pleasant, she explained everything to me in detail so that I had no doubts.
+    Thorough cabinet hygiene. I have already recommended the place to several people to get ringed soon.
+  rating: 5
+  date: 2024-01-12 08:05:38
+  image: https://lh3.googleusercontent.com/a-/ALV-UjWo5BYVmYG2QlzvNHoLGmn-j3QeJGruo0WQxSrqq9xzbpEEy67v=s136-ba3
+- title: Clara María Ros
+  content: Andrea is a first-class professional. Very nice and careful when doing the piercing. He did my nose very well, informing me at all times about its care and maintenance. The customer service is exceptional and the prices are very affordable. I recommend it 😁🥰🥰
+  rating: 5
+  date: 2024-07-22 19:35:59
+  image: https://lh3.googleusercontent.com/a-/ALV-UjWsJJcZir56RaCtRsTzV31AaMce_zKA9gQwgapJW1W4W0prE9yt=s136-ba3
+- title: Yole
+  content: I had my eyebrow done and the bridge done. Excellent care, they answered all my questions and gave me the tools to avoid infections and problems. If you are in Murcia and want a professional job, come here.
+  rating: 5
+  date: 2024-09-04 11:34:10
+  image: https://lh3.googleusercontent.com/a-/ALV-UjWDF-0delOo4bAGvHxGRIrPLqyHS6ShPXkrz7sX25d3y_pkOFY=s136

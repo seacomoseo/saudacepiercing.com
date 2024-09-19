@@ -1,17 +1,29 @@
 name: Cabecera
-hanchor: SanSoul Hugo Theme
-color: main-dark
-bg: fondo.jpg
+hanchor: Tienda de Piercing en Murcia Centro
+bg: intro.jpg
 full: true
+size: md
+pt: 8
+box:
+  columns: 2
+  gap: 5
+  align_y: center
 boxes:
-- image: base/logo.svg
-  span: .125
-  span_min: .5
-- title: SanSoul Hugo Theme
-  hn: p
-  hs: 0
-  subtitle: SanSoul es un tema de Hugo con alma para webs de servicios por lorensansol
-  content: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+- span: 1.1
+  boxes:
+  - image: base/icon-animation.svg
+    span: .75
+    span_min: .75
+  - title: Saudace Piercing
+    hn: p
+    hs: 2
+    underline: false
+    subtitle: '& Fine Jewelry'
+    content: |
+      ==icon:sign-simple **Estudio Especializado en Piercings**==
 
-    [btn icon:plus Más](#nosotros)
+      Técnica aséptica, aguja americana, joyería biocompatible y **exclusiva**
+
+      [btn icon:sparkle Pide tu cita](#contacto)
+- span: .9
+  image: intro.webm#mute

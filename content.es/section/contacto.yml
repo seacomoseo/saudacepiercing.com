@@ -16,7 +16,6 @@ boxes:
     label: '{{% param phones.0 %}}'
   - type: whatsapp
     label: '{{% param phones.0 %}}'
-    # button: link
   - type: custom
     icon: instagram
     label: '@saudace_piercing'
@@ -24,14 +23,11 @@ boxes:
     ofuscate: true
     button: invert
     font_alt: true
-    # full: true
   - type: custom
-    icon: sparkle
-    label: Pide tu cita
+    icon: calendar
+    label: Cita directa
     link: https://inkoru.com/SCkjCb
     ofuscate: true
-    # font_alt: true
-    # full: true
   - type: mail
     label: saudacepiercing@gmail.com
   - type: address

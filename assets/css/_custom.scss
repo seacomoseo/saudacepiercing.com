@@ -17,7 +17,7 @@
     }
   }
   // .box--1 .image              { @include show-from(0); --show-from: scale(3); }
-  @mixin show-from($delay) { animation: show-from .5s (.5s + .25s * $delay) both; }
+  @mixin show-from($delay) { animation: show-from .5s (1.5s + .125s * $delay) both; }
   .box--1 .box__title             { @include show-from(1); }
   .box--1 .subtitle               { @include show-from(2); }
   .box--1 .content p:nth-child(1) { @include show-from(3); }
@@ -33,7 +33,7 @@
 }
 
 // Transparent gradient in person
-#sobre .box--2 .image__inner {
+[src="/media/andrea.png"] {
   --mask-image: linear-gradient(#000 85%, transparent);
   -webkit-mask-image: var(--mask-image);
   mask-image: var(--mask-image);

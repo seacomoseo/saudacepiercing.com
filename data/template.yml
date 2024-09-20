@@ -1,6 +1,7 @@
 background:
   color: white
 menu:
+  color: dark
   logo: true
   logo_align: center
   transparent: true
@@ -10,8 +11,9 @@ menu:
   en:
     image: base/logo-h.svg
 modal:
-  size: lg
+  size: xl
   color: dark
+  underline: true
 list:
   columns: 3
   declive: true

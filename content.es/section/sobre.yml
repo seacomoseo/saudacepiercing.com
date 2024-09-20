@@ -1,20 +1,20 @@
 name: Sobre
 id: sobre
-title: Sobre Saudace
+title: ¿Saudace?
 subtitle: ¿De qué va esto?
 
-box:
-  gap_y: 3
+# box:
+#   gap_y: 3
 
 boxes:
 
 - box:
     columns: 2
     gap: 5
+    ratio: 1x1
   boxes:
   - order: 2
     image: piercings-seguros.webp
-    ratio: 1x1
   - align: left
     align_max: right
     align_y: center
@@ -31,13 +31,14 @@ boxes:
       También puedes inspirarte con los trabajos que encontrarás en esta página.
 
       [btn icon:sparkles Ver Praxis](#praxis)
+      [btn icon:eye Ver Trabajos](#body-piercing)
 
 - box:
     columns: 2
     gap: 5
+    ratio: 1x1
   boxes:
-  - ratio: 1x1
-    image: andrea.png
+  - image: andrea.png
     # bg: andrea.webm
     parallax: box
   - align: left
@@ -52,14 +53,15 @@ boxes:
 
       Mi trabajo no acaba cuando te realices tu perforación, si no que haremos un **seguimiento** y estaré disponible para ti, hasta que tu perforación esté totalmente sana.
 
-      [btn icon:sparkle Pedir Cita](/pide-tu-cita/)
+      [btn:font-alt icon:instagram @andrea_bodypiercer_](https://www.instagram.com/andrea_bodypiercer_/ "nofollow")
 
 - box:
     columns: 2
     gap: 5
+    ratio: 1x1
   boxes:
   - order: 2
-    bg: https://saudacebodypiercer.com/wp-content/uploads/2022/09/4.0-Elige-la-mejor-joyeria-.webp
+    image: https://saudacebodypiercer.com/wp-content/uploads/2022/09/4.0-Elige-la-mejor-joyeria-.webp
   - align: left
     align_max: right
     align_y: center
@@ -71,4 +73,20 @@ boxes:
 
       Dispongo de joyería en stock para todos los gustos. Desde engarces, ciconias, ópalos o opal stone (piedras naturales) de todos los colores y diferentes formas.
 
-      [btn icon:gem Ver Joyería](/servicios-top/)
+      [btn icon:gem Ver Joyería](#joyeria)
+
+- box:
+    columns: 2
+    gap: 5
+    ratio: 1x1
+  boxes:
+  - image: https://saudacebodypiercer.com/wp-content/uploads/2022/09/1.0-Foto-intro-encabezado.webp
+  - align: left
+    align_y: center
+    hs: 3
+    title: Curaciones
+    subtitle: 
+    content: |
+      Texto de curaciones
+
+      [btn icon:hand-holding-medical Ver curaciones](#curaciones)

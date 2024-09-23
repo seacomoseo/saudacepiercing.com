@@ -30,7 +30,7 @@ _:
     - size: xl
       underline: true
     sections:
-    - file: trabajos
+    - file: portfolio
   es:
     permalinks: portfolio
     slug: portfolios

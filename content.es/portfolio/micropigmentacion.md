@@ -4,7 +4,7 @@ title: Micropigmentación
 image: base/logo.png
 translationKey: micropigmentacion
 
-seo: Trabajos de Micropigmentación 🧷👂🏻 Saudace Piercing
+seo: Portfolio de Micropigmentación 🧷👂🏻 Saudace Piercing
 
 service_areas:
 - Murcia

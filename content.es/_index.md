@@ -40,9 +40,9 @@ sections:
   # - file: portfolio/micropigmentacion
 - file: caracteristicas
   modals:
-  - file: sobre/praxis
-  - file: sobre/joyeria
-  - file: sobre/curaciones
+  - file: caracteristicas/praxis
+  # - file: caracteristicas/joyeria
+  - file: caracteristicas/curaciones
 - file: sobre
 - file: testimonios
 - file: faq

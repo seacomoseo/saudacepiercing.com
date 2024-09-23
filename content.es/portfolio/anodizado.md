@@ -4,7 +4,7 @@ title: Anodizado
 image: base/logo.png
 translationKey: anodizado
 
-seo: Trabajos de Anodizado de Joyería 🧷👂🏻 Saudace Piercing
+seo: Portfolio de Anodizado de Joyería 🧷👂🏻 Saudace Piercing
 
 service_areas:
 - Murcia

@@ -4,7 +4,7 @@ title: Toothgems
 image: base/logo.png
 translationKey: toothgems
 
-seo: Trabajos de Toothgems 🧷👂🏻 Saudace Piercing
+seo: Portfolio de Toothgems 🧷👂🏻 Saudace Piercing
 
 service_areas:
 - Murcia

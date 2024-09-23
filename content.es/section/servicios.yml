@@ -16,24 +16,29 @@ boxes:
 - image: https://saudacebodypiercer.com/wp-content/uploads/2022/09/cita_previa.webp
   title: Body Piercing
   content: Realizamos piercings seguros en diversas zonas, siempre con técnicas asépticas y joyería biocompatible.
-  link: '#body-piercing'
+  link: /portfolio/body-piercing/
+  # link: '#body-piercing'
 
 - image: https://saudacebodypiercer.com/wp-content/uploads/2022/09/disen%CC%83os-disponibles-2.jpg
   title: Diseños Personalizados
   content: Crea tu look único con diseños personalizados para tus orejas, adaptados a tu estilo y personalidad.
-  link: '#disenos'
+  link: /portfolio/disenos/
+  # link: '#disenos'
 
 - image: https://saudacebodypiercer.com/wp-content/uploads/2022/09/toothgems-5.jpg
   title: Toothgems
   content: Decora tu sonrisa con nuestras gemas dentales. Un proceso indoloro y no invasivo que te da un toque especial.
-  link: '#toothgems'
+  link: /portfolio/toothgems/
+  # link: '#toothgems'
 
 - image: https://saudacebodypiercer.com/wp-content/uploads/2022/09/anonizado-3.jpg
   title: Anodizado de Joyería
   content: Transforma el color de tu joyería con nuestro servicio de anodizado, seguro y de alta calidad.
-  link: '#anodizado'
+  link: /portfolio/anodizado/
+  # link: '#anodizado'
 
 - image: https://saudacebodypiercer.com/wp-content/uploads/2022/09/1.0-Foto-intro-encabezado.webp
   title: Micropigmentación
   content: Ofrecemos micropigmentación para realzar tu belleza natural de forma duradera y personalizada.
-  link: '#micropigmentacion'
+  link: /portfolio/micropigmentacion/
+  # link: '#micropigmentacion'

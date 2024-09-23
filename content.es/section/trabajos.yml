@@ -1,0 +1,28 @@
+name: Trabajos
+title: '{{% param title %}}'
+subtitle: Trabajos
+hn: 1
+
+box:
+  gap: 3
+boxes:
+
+- gallery:
+    columns: 6
+    type: columns
+    button: hide
+  params:
+  - page: gallery_columns
+    box: gallery.columns
+  - page: gallery_type
+    box: gallery.type
+  - page: images
+    box: images
+
+- if: content
+  content: |
+    {{< content >}}
+
+- link: /
+  licon: house
+  label: Inicio

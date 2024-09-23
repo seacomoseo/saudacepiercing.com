@@ -9,9 +9,6 @@
 ### Local
 
 - Design
-  - GENERAL
-    - `config.yml`
-    - `data/*.{yml,md}`
   - IMG
     - `assets/media/*`
   - REDIRECTS

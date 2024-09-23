@@ -14,7 +14,7 @@ menu:
   sticky: auto
   size: md
   show_sections: true
-  show_modals: true
+  show_modals: false
 callnow:
   show: auto
 section:
@@ -33,12 +33,12 @@ section:
 sections:
 - file: _header
 - file: servicios
-  modals:
-  - file: trabajos/body-piercing
-  - file: trabajos/disenos
-  - file: trabajos/toothgems
-  - file: trabajos/anodizado
-  - file: trabajos/micropigmentacion
+  # modals:
+  # - file: portfolio/body-piercing
+  # - file: portfolio/disenos
+  # - file: portfolio/toothgems
+  # - file: portfolio/anodizado
+  # - file: portfolio/micropigmentacion
 - file: caracteristicas
   modals:
   - file: sobre/praxis

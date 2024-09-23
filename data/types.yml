@@ -1,1 +1,41 @@
-_: []
+_:
+
+- base: service
+  name: portfolio
+  icon: rectangle-history
+  emoji: 📁
+  noindex: true
+  params:
+  - name: gallery_columns
+    type: int
+  - name: gallery_type
+    type: select
+    options:
+    - label: Rejilla
+      value: grid
+    - label: Rejilla Contenedora
+      value: grid-contain
+    - label: Filas
+      value: rows
+    - label: Columnas
+      value: columns
+  - name: images
+    type: image
+    multiple: true
+  template:
+    background:
+      color: dark
+    menu:
+      hide: true
+    callnow:
+      show: auto
+    section:
+    - size: xl
+      underline: true
+    sections:
+    - file: trabajos
+  es:
+    permalinks: portfolio
+    slug: portfolio
+    singular: Portfolio
+    title: Portfolio

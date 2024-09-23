@@ -8,40 +8,61 @@ boxes:
     columns: 2
     gap: 5
     ratio: 1x1
+    align_y: center
   boxes:
   - order: 2
     image: piercings-seguros.webp
   - align: left
     align_max: right
-    align_y: center
     hs: 3
     title: Piercings Seguros
     subtitle: Y con los mejores y modernos materiales
     content: |
+      Saudace piercing es un estudio creado para dar el lugar que se merece al body piercing en nuestra ciudad, donde se aplican los estandares necesarios para realizar un piercing de forma segura.
+
+      Todas nuestras instalaciones crean un circuito que minimiza los riesgos de contaminación cruzada, lo que hace que el espacio sea seguro para todos.
+
+      Mi praxis a la hora de trabajar se basa en utilizar un conjunto de técnicas que dan paso a una perforación segura, como la técnica aséptica con aguja americana. Además, única y exclusivamente trabajo con joyería biocompatible.
+
+      [btn icon:sparkles Ver Praxis](#praxis)
+
+- box:
+    columns: 2
+    gap: 5
+    ratio: 1x1
+    align_y: center
+  boxes:
+  - image: https://lh5.googleusercontent.com/p/AF1QipMV0Wi_Z_q_IxD8_9wdshWO8pC7d48MiSo6JH5A=w1280
+  - align: left
+    hs: 3
+    title: Asesoramiento
+    subtitle: Te guiaré con mucho gusto
+    content: |
       El piercing es una técnica milenaria y hay que tratarlo con muchísimo respeto, si no se hace por un/a profesional puede tener consecuencias irreversibles.
 
-      Si no sabes cuál sería la mejor elección para ti, puedes contactar conmigo, y te asesoraré hasta llegar a la mejor opción para ti.
+      Si no sabes cuál sería la mejor elección para ti, puedes contactar conmigo, y te asesoraré hasta llegar a la mejor opción.
 
       Os recuerdo que no todas las anatomías son aptas para todas las perforaciones pero siempre podremos encontrar una solución viable y bonita para ti.
 
       También puedes inspirarte con los trabajos que encontrarás en esta página.
 
-      [btn icon:sparkles Ver Praxis](#praxis)
       [btn icon:eye Ver Trabajos](#body-piercing)
 
 - box:
     columns: 2
     gap: 5
     ratio: 1x1
-  boxes:
-  - image: https://saudacebodypiercer.com/wp-content/uploads/2022/09/4.0-Elige-la-mejor-joyeria-.webp
-  - align: left
     align_y: center
+  boxes:
+  - order: 2
+    image: https://saudacebodypiercer.com/wp-content/uploads/2022/09/4.0-Elige-la-mejor-joyeria-.webp
+  - align: left
+    align_max: right
     hs: 3
     title: La mejor joyería
     subtitle: Trabajo exclusivamente con joyería biocompatible
     content: |
-      La cuál asegurará tu cicatrizació, utilizo materiales como el titanio grado implante certificado ASTMF136, oro de 14k y 18k, niobio y vidrio de borosilicato, siempre de rosca interna para asegurar una curación mejor y una menor acumulacion de suciedad en tu joya.
+      La cuál asegurará tu cicatrizació, utilizo materiales como el titanio grado implante certificado ASTMF136, oro de 14k y 18k, niobio y vidrio de borosilicato.
 
       Dispongo de joyería en stock para todos los gustos. Desde engarces, ciconias, ópalos o opal stone (piedras naturales) de todos los colores y diferentes formas.
 
@@ -51,14 +72,12 @@ boxes:
     columns: 2
     gap: 5
     ratio: 1x1
-  boxes:
-  - order: 2
-    image: https://saudacebodypiercer.com/wp-content/uploads/2022/09/1.0-Foto-intro-encabezado.webp
-  - align: left
-    align_max: right
     align_y: center
+  boxes:
+  - image: https://lh5.googleusercontent.com/p/AF1QipNcuPel1MsNIhLB18SrSCemzk64y9wdTFgSa8tA=w1280
+  - align: left
     hs: 3
-    title: Curaciones
+    title: Curaciones / Aftercare
     subtitle: Cuida tu perforación
     content: |
       Mi trabajo no acaba cuando te realice tu perforación, si no que haremos un **seguimiento** y estaré disponible para ti, hasta que tu perforación esté totalmente sana.

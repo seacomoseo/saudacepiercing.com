@@ -7,9 +7,8 @@ translationKey: home
 seo: Saudace Piercing & Fine Jewelry 🧷👂🏻 Tienda en Murcia Centro
 description: llll➤ Estudio especializado en body piercing. ✅ Perforaciones Seguras, Joyería Biocompatible, Diseños Personalizados, Seguimiento, Toothgems, Anodizado...
 
-background:
-  color: dark
 menu:
+  hide: false
   logo: false
   sticky: auto
   size: md

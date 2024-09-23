@@ -1,6 +1,7 @@
 background:
-  color: white
+  color: dark
 menu:
+  hide: true
   color: dark
   logo: true
   logo_align: center

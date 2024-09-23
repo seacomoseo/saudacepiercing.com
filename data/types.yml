@@ -26,12 +26,6 @@ _:
     type: image
     multiple: true
   template:
-    background:
-      color: dark
-    menu:
-      hide: true
-    callnow:
-      show: auto
     section:
     - size: xl
       underline: true

@@ -7,8 +7,10 @@ _:
   noindex: true
   params:
   - name: gallery_columns
+    label: Nº de Columnas de la Galería
     type: int
   - name: gallery_type
+    label: Tipo de Galería
     type: select
     options:
     - label: Rejilla
@@ -20,6 +22,7 @@ _:
     - label: Columnas
       value: columns
   - name: images
+    label: Imágenes de la Galería
     type: image
     multiple: true
   template:
@@ -36,6 +39,6 @@ _:
     - file: trabajos
   es:
     permalinks: portfolio
-    slug: portfolio
+    slug: portfolios
     singular: Portfolio
-    title: Portfolio
+    title: Portfolios

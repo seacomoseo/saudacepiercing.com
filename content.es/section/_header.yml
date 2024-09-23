@@ -3,7 +3,6 @@ hanchor: Tienda de Piercing en Murcia Centro
 bg: intro.jpg
 full: true
 size: md
-pt: 8
 box:
   columns: 2
   gap: 5

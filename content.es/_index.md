@@ -45,10 +45,10 @@ sections:
   - file: sobre/joyeria
   - file: sobre/curaciones
 - file: sobre
-- file: faq
 - file: testimonios
+- file: faq
 - file: contacto
-# - file: mapa
+- file: mapa
 
 base: organization
 types:
@@ -106,20 +106,21 @@ open:
   closes: 20:30
 prices: null
 services:
-- title: Pody Piercing
-  description: Asesoramiento, joyería, perforaciones y seguimiento
+
+- title: Body Piercing
+  description: Realizamos piercings seguros en diversas zonas, siempre con técnicas asépticas y joyería biocompatible.
   area: Murcia
-- title: Diseños de Oreja
-  description: Diseños personalizados de joyería y perforaciones para oreja
+- title: Diseños Personalizados
+  description: Crea tu look único con diseños personalizados para tus orejas, adaptados a tu estilo y personalidad.
   area: Murcia
-- title: Gemas Dentales / Toothgems
-  description: Descripción de ejemplo
+- title: Toothgems
+  description: Decora tu sonrisa con nuestras gemas dentales. Un proceso indoloro y no invasivo que te da un toque especial.
   area: Murcia
-- title: Anodizado
-  description: Descripción de ejemplo
+- title: Anodizado de Joyería
+  description: Transforma el color de tu joyería con nuestro servicio de anodizado, seguro y de alta calidad.
   area: Murcia
 - title: Micropigmentación
-  description: Descripción de ejemplo
+  description: Ofrecemos micropigmentación para realzar tu belleza natural de forma duradera y personalizada.
   area: Murcia
 
 ---

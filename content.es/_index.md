@@ -14,7 +14,7 @@ menu:
   sticky: auto
   size: md
   show_sections: true
-  show_modals: false
+  show_modals: true
 callnow:
   show: auto
 section:
@@ -39,11 +39,12 @@ sections:
   - file: trabajos/toothgems
   - file: trabajos/anodizado
   - file: trabajos/micropigmentacion
-- file: sobre
+- file: caracteristicas
   modals:
   - file: sobre/praxis
   - file: sobre/joyeria
   - file: sobre/curaciones
+- file: sobre
 - file: faq
 - file: testimonios
 - file: contacto

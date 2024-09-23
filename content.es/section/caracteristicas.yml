@@ -1,0 +1,68 @@
+name: Características
+title: Características
+subtitle: Lo que me diferencia
+
+boxes:
+
+- box:
+    columns: 2
+    gap: 5
+    ratio: 1x1
+  boxes:
+  - order: 2
+    image: piercings-seguros.webp
+  - align: left
+    align_max: right
+    align_y: center
+    hs: 3
+    title: Piercings Seguros
+    subtitle: Y con los mejores y modernos materiales
+    content: |
+      El piercing es una técnica milenaria y hay que tratarlo con muchísimo respeto, si no se hace por un/a profesional puede tener consecuencias irreversibles.
+
+      Si no sabes cuál sería la mejor elección para ti, puedes contactar conmigo, y te asesoraré hasta llegar a la mejor opción para ti.
+
+      Os recuerdo que no todas las anatomías son aptas para todas las perforaciones pero siempre podremos encontrar una solución viable y bonita para ti.
+
+      También puedes inspirarte con los trabajos que encontrarás en esta página.
+
+      [btn icon:sparkles Ver Praxis](#praxis)
+      [btn icon:eye Ver Trabajos](#body-piercing)
+
+- box:
+    columns: 2
+    gap: 5
+    ratio: 1x1
+  boxes:
+  - image: https://saudacebodypiercer.com/wp-content/uploads/2022/09/4.0-Elige-la-mejor-joyeria-.webp
+  - align: left
+    align_y: center
+    hs: 3
+    title: La mejor joyería
+    subtitle: Trabajo exclusivamente con joyería biocompatible
+    content: |
+      La cuál asegurará tu cicatrizació, utilizo materiales como el titanio grado implante certificado ASTMF136, oro de 14k y 18k, niobio y vidrio de borosilicato, siempre de rosca interna para asegurar una curación mejor y una menor acumulacion de suciedad en tu joya.
+
+      Dispongo de joyería en stock para todos los gustos. Desde engarces, ciconias, ópalos o opal stone (piedras naturales) de todos los colores y diferentes formas.
+
+      [btn icon:gem Ver Joyería](#joyeria)
+
+- box:
+    columns: 2
+    gap: 5
+    ratio: 1x1
+  boxes:
+  - order: 2
+    image: https://saudacebodypiercer.com/wp-content/uploads/2022/09/1.0-Foto-intro-encabezado.webp
+  - align: left
+    align_max: right
+    align_y: center
+    hs: 3
+    title: Curaciones
+    subtitle: Cuida tu perforación
+    content: |
+      Mi trabajo no acaba cuando te realice tu perforación, si no que haremos un **seguimiento** y estaré disponible para ti, hasta que tu perforación esté totalmente sana.
+
+      Aquí tienes algunos consejos para cuidar de tu nueva perforación.
+
+      [btn icon:hand-holding-medical Ver curaciones](#curaciones)

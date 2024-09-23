@@ -1,4 +1,5 @@
 name: Pie
+color: black
 divider: curve-corner-op
 box:
   gap: 1

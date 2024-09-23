@@ -1,4 +1,24 @@
 name: Curaciones
 title: Curaciones
-subtitle: 
+subtitle: Consejos de Cuidado
 
+step:
+  border: invert
+  underline: true
+steps:
+
+- icon: hands-bubbles
+  title: Mantén la Higiene
+  content: Lávate las manos antes de tocar tu piercing y limpia la zona alrededor con una solución salina o el producto recomendado.
+- icon: virus-slash
+  title: Evita el Contacto
+  content: No toques ni gires el piercing sin necesidad. Esto puede causar irritación y aumentar el riesgo de infección.
+- icon: list-check
+  title: Sigue las Instrucciones
+  content: Siempre sigue las instrucciones que te proporcionaré durante tu cita para asegurar una correcta cicatrización.
+- icon: heart-pulse
+  title: Control de la Inflamación
+  content: Es normal que haya algo de inflamación en los primeros días. Si persiste o empeora, contáctame para una revisión.
+- icon: hand-sparkles
+  title: Cuidado Regular
+  content: Realiza limpiezas diarias y mantén el piercing alejado de productos irritantes como perfumes o cremas.

@@ -1,0 +1,10 @@
+name: Micropigmentación
+id: micropigmentacion
+title: Micropigmentación
+subtitle: Trabajos
+gallery:
+  columns: 6
+  # type: columns
+  button: hide
+images:
+- 

@@ -3,7 +3,7 @@ title: Testimonios
 subtitle: Cositas bonitas que me decís ^^
 review:
   columns: 3
-  color: white
+  color: dark
   slider: true
   interval: 8
 reviews:

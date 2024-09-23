@@ -1,0 +1,10 @@
+name: Anodizado
+id: anodizado
+title: Anodizado de Joyería
+subtitle: Trabajos
+gallery:
+  columns: 6
+  # type: columns
+  button: hide
+images:
+- 

@@ -48,7 +48,7 @@ sections:
 - file: testimonios
 - file: faq
 - file: contacto
-- file: mapa
+# - file: mapa
 
 base: organization
 types:

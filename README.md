@@ -15,7 +15,6 @@
     - `assets/redirects.md`
   - If Multilanguaje and Multihosting, add `cp ./public/[es|en]/404.html ./public/` in `netlify.toml ⏩ build.command`
   - Try in Safari and Firefox
-  - Check in [W3 Validator](https://validator.w3.org/)
   - Check in [PageSpeed Insights](https://pagespeed.web.dev/)
 
 
@@ -100,29 +99,3 @@ No es necesario que lo veas, solo lo es si quieres hacer cosas por tu cuenta o s
 
 ¡Un saludo!
 ```
-
-## GADS
-
-### GA4
-
-- Vincular
-  - `Herramientas`
-  - `Gestor de datos`
-  - `Google Analytics (GA4) & Firebase ⏩ Detalles`
-  - Buscar proyecto y ⏩ `Vincular`
-- Importar conversiones
-  - `Objetivos`
-  - `Resumen`
-  - `Crear acción de conversión`
-  - `Importar`
-  - `Propiedades de Google Analytics 4`
-  - `Web`
-  - `Continuar`
-  - Seleccionar `contact_click` y `contact_form_submit`
-  - `Importar y continuar`
-- Cambiar a `Maximizar conversiones`
-  - `Campañas`
-  - `⚙️`
-  - `Puja`
-  - `Cambiar estrategia de puja`
-  - `¿En qué quieres centrarte? ⏩ Conversiones`

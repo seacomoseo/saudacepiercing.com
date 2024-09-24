@@ -43,7 +43,9 @@ sections:
   - file: caracteristicas/praxis
   # - file: caracteristicas/joyeria
   - file: caracteristicas/curaciones
-- file: sobre
+- file: sobre-mi
+  modals:
+  - file: mas-sobre-mi
 - file: testimonios
 - file: faq
 - file: contacto

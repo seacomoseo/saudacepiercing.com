@@ -23,11 +23,13 @@ boxes:
     ofuscate: true
     button: invert
     font_alt: true
+    ga4: true
   - type: custom
     icon: calendar
     label: Cita directa
     link: https://inkoru.com/SCkjCb
     ofuscate: true
+    ga4: true
   - type: mail
     label: saudacepiercing@gmail.com
   - type: address

@@ -5,11 +5,10 @@ subtitle: ¿Quién es Saudace?
 box:
   columns: 2
   gap: 5
-  ratio: 1x1
   align: left
   align_y: center
 boxes:
-- image: andrea.png
+- image: trabajando/andrea.png
   parallax: box
 - content: |
     **Soy ==icon:sign-simple Andrea Marín==, anilladora y dueña del local Saudace Piercing.**

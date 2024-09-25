@@ -31,7 +31,7 @@ boxes:
     ofuscate: true
     ga4: true
   - type: mail
-    label: saudacepiercing@gmail.com
+    label: info@saudacepiercing.com
   - type: address
     label: '{{% param address.street %}}, {{% param address.pc %}} {{% param address.locality %}}'
     anchor: '{{% address-url %}}'

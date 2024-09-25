@@ -61,7 +61,7 @@ names:
 - Saudace Piercing 🧷👂🏻
 legal: Andrea Marín Escribano
 nif: 48746856N
-email: saudacepiercing@gmail.com
+email: info@saudacepiercing.com
 summary: Estudio especializado en body piercing con perforaciones seguras y joyería biocompatible en Murcia centro. Ofrecemos diseños personalizados y seguimiento post-perforación. También realizamos toothgems, anodizado de joyería y micropigmentación.
 logo: base/logo.svg
 images:

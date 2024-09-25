@@ -33,8 +33,14 @@
 }
 
 // Transparent gradient in person
-[src="/media/andrea.png"] {
+[src="/media/trabajando/andrea.png"],
+[src="/media/trabajando/2024-01-19-17-49-30.png"] {
   --mask-image: linear-gradient(#000 85%, transparent);
   -webkit-mask-image: var(--mask-image);
   mask-image: var(--mask-image);
 }
+// [src="/media/trabajando/2024-09-24-20-52-03.png"] {
+//   --mask-image: radial-gradient(ellipse at -100% 0%, #000 70%, transparent 81%);
+//   -webkit-mask-image: var(--mask-image);
+//   mask-image: var(--mask-image);
+// }

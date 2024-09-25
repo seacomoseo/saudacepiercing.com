@@ -4,8 +4,16 @@ title: Micropigmentación
 image: base/logo.png
 translationKey: micropigmentacion
 
-seo: Portfolio de Micropigmentación 🧷👂🏻 Saudace Piercing
+seo: Micropigmentación y Microblanding en Murcia 🧷👂🏻 Saudace Piercing
 
+section:
+- size: lg
+  underline: true
+sections:
+- file: micropigmentacion
+# - file: contacto
+
+base: service
 service_areas:
 - Murcia
 
@@ -20,8 +28,3 @@ images:
 - micropigmentacion/capilar-antes-despues.jpg
 
 ---
-- Técnicas mixtas y tecnica pelo a pelo
-- Delineado permanente
-- Micropigmentación labial
-- Micropigmentación capilar
-- Micropigmentación en cicatrices

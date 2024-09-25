@@ -4,7 +4,7 @@ title: Body Piercing
 image: base/logo.png
 translationKey: body-piercing
 
-seo: Portfolio de Body Piercing 🧷👂🏻 Saudace Piercing
+seo: Trabajos de Body Piercing 🧷👂🏻 Saudace Piercing
 
 service_areas:
 - Murcia

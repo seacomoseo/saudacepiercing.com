@@ -1,10 +1,10 @@
 _:
 
 - base: service
-  name: portfolio
+  name: gallery
   icon: rectangle-history
   emoji: 📁
-  noindex: true
+  noindex: false
   params:
   - name: gallery_columns
     label: Nº de Columnas de la Galería
@@ -30,9 +30,9 @@ _:
     - size: xl
       underline: true
     sections:
-    - file: base/portfolio
+    - file: base/galerias
   es:
-    permalinks: portfolio
-    slug: portfolios
-    singular: Portfolio
-    title: Portfolios
+    permalinks: ''
+    slug: galerias
+    singular: Galería
+    title: Galerías

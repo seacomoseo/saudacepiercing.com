@@ -1,6 +1,6 @@
-name: Portfolio
+name: Galerías
 title: '{{% param title %}}'
-subtitle: Portfolio
+subtitle: Galería
 hn: 1
 
 box:

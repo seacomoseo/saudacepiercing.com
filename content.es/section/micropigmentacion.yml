@@ -1,0 +1,91 @@
+name: Micropigmentación
+hanchor: Micropigmentación y Microblanding en Murcia
+title: Micropigmentación
+subtitle: y Microblanding
+content: Define tu estilo con Precisión
+boxes:
+
+- box:
+    columns: 2
+    gap: 5
+    ratio: 1x1
+    align_y: center
+  boxes:
+  - order: 2
+    image: micropigmentacion/labios-antes-despues.jpg
+  - align: left
+    align_max: right
+    hs: 3
+    title: Labios
+    hanchor: Micropigmentación Labial en Murcia
+    subtitle: Micropigmentación Labial
+    content: |
+      Esta técnica es ideal para equilibrar pequeñas asimetrías y rediseñar el contorno de tus labios.
+
+      Además siempre estarás perfecta ya que se consigue un resultado muy natural.
+
+      Gran variedad de tonos disponibles.
+
+      [btn Contacto](/#contacto)
+
+- box:
+    columns: 2
+    gap: 5
+    ratio: 1x1
+    align_y: center
+  boxes:
+  - image: micropigmentacion/ojos-despues.jpg
+  - align: left
+    hs: 3
+    title: Ojos
+    hanchor: Delineado de ojos (Eyeliner) en Murcia
+    subtitle: Delineado de ojos (Eyeliner)
+    content: |
+      ¿Estás cansada de maquillarte todos los días?
+
+      Esta técnica se trata de un maquillaje semi-permanente con el que ahorrarás tiempo en tu día a día.
+
+      Gran variedad de tonos disponibles.
+
+      [btn Contacto](/#contacto)
+
+- box:
+    columns: 2
+    gap: 5
+    ratio: 1x1
+    align_y: center
+  boxes:
+  - order: 2
+    image: micropigmentacion/capilar-antes-despues.jpg
+  - align: left
+    align_max: right
+    hs: 3
+    title: Cabeza
+    hanchor: Micropigmentación Capilar en Murcia
+    subtitle: Micropigmentación Capilar
+    content: |
+      ¿Quieres disimular alguna cicatriz o rellenar algún hueco?
+
+      Con esta técnica obtendrás un efecto rapado super natural.
+
+      [btn Contacto](/#contacto)
+
+- box:
+    columns: 2
+    gap: 5
+    ratio: 1x1
+    align_y: center
+  boxes:
+  - image: micropigmentacion/cejas-antes-despues.jpg
+  - align: left
+    hs: 3
+    title: Cejas
+    hanchor: Micropigmentación en Cejas en Murcia
+    subtitle: Micropigmentación en Cejas
+    content: |
+      Elige que ténica va más con tu estilo:
+
+      - Técnica pelo a pelo para un efecto natural.
+      - Combinación de técnicas para un efecto más marcado y definido.
+
+      [btn Contacto](/#contacto)

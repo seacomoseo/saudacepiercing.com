@@ -32,12 +32,6 @@ section:
 sections:
 - file: _header
 - file: servicios
-  # modals:
-  # - file: portfolio/body-piercing
-  # - file: portfolio/disenos
-  # - file: portfolio/toothgems
-  # - file: portfolio/anodizado
-  # - file: portfolio/micropigmentacion
 - file: caracteristicas
   modals:
   - file: caracteristicas/praxis
@@ -110,18 +104,23 @@ services:
 
 - title: Body Piercing
   description: Realizamos piercings seguros en diversas zonas, siempre con técnicas asépticas y joyería biocompatible.
+  link: https://saudacepiercing.com/body-piercing/
   area: Murcia
 - title: Diseños Personalizados
   description: Crea tu look único con diseños personalizados para tus orejas, adaptados a tu estilo y personalidad.
+  link: https://saudacepiercing.com/disenos-personalizados/
   area: Murcia
-- title: Toothgems
+- title: Toothgems / Gemas Dentales
   description: Decora tu sonrisa con nuestras gemas dentales. Un proceso indoloro y no invasivo que te da un toque especial.
+  link: https://saudacepiercing.com/toothgems/
   area: Murcia
 - title: Anodizado de Joyería
   description: Transforma el color de tu joyería con nuestro servicio de anodizado, seguro y de alta calidad.
+  link: https://saudacepiercing.com/anodizado/
   area: Murcia
 - title: Micropigmentación
   description: Ofrecemos micropigmentación para realzar tu belleza natural de forma duradera y personalizada.
+  link: https://saudacepiercing.com/micropigmentacion/
   area: Murcia
 
 ---

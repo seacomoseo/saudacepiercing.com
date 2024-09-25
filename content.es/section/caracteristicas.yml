@@ -11,7 +11,9 @@ boxes:
     align_y: center
   boxes:
   - order: 2
-    image: trabajando/2022-09-01-00-00-02.webp
+    bg: trabajando/2022-09-01-00-00-02.webp
+    parallax: soft
+    rate: 1x1
   - align: left
     align_max: right
     hs: 3
@@ -46,7 +48,7 @@ boxes:
 
       También puedes inspirarte con los trabajos que encontrarás en esta página.
 
-      [btn icon:eye Ver Trabajos](/portfolio/body-piercing/)
+      [btn icon:eye Ver Trabajos](/body-piercing/)
 
 - box:
     columns: 2
@@ -55,7 +57,7 @@ boxes:
     align_y: center
   boxes:
   - order: 2
-    image: local/joyeria.jpg
+    image: joyeria/mix/2024-01-30-16-57-57.jpg
   - align: left
     align_max: right
     hs: 3
@@ -66,7 +68,7 @@ boxes:
 
       Dispongo de joyería en stock para todos los gustos. Desde engarces, ciconias, ópalos o opal stone (piedras naturales) de todos los colores y diferentes formas.
 
-      [btn icon:gem Ver Joyería](/portfolio/joyeria/)
+      [btn icon:gem Ver Joyería](/joyeria/)
 
 - box:
     columns: 2
@@ -74,7 +76,9 @@ boxes:
     ratio: 1x1
     align_y: center
   boxes:
-  - image: local/aftercare.jpg
+  - bg: local/aftercare.jpg
+    parallax: soft
+    rate: 1x1
   - align: left
     hs: 3
     title: Curaciones / Aftercare

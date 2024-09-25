@@ -16,24 +16,24 @@ boxes:
 - image: trabajando/2022-09-01-00-00-01.webp
   title: Body Piercing
   content: Realizamos piercings seguros en diversas zonas, siempre con técnicas asépticas y joyería biocompatible.
-  link: /portfolio/body-piercing/
+  link: /body-piercing/
 
 - image: piercing/disenos-personalizados/2024-09-24-20-24-18.jpg
   title: Diseños Personalizados
   content: Crea tu look único con diseños personalizados para tus orejas, adaptados a tu estilo y personalidad.
-  link: /portfolio/disenos-personalizados/
+  link: /disenos-personalizados/
 
 - image: toothgems/2024-09-24-20-56-29.jpg
   title: Toothgems
   content: Decora tu sonrisa con nuestras gemas dentales. Proceso indoloro y no invasivo que te da un toque especial.
-  link: /portfolio/toothgems/
+  link: /toothgems/
 
 - image: joyeria/anodizado.jpg
   title: Anodizado de Joyería
   content: Transforma el color de tu joyería con nuestro servicio de anodizado, seguro y de alta calidad.
-  link: /portfolio/anodizado/
+  link: /anodizado/
 
 - image: micropigmentacion/cejas.jpg
   title: Micropigmentación
   content: Ofrecemos micropigmentación para realzar tu belleza natural de forma duradera y personalizada.
-  link: /portfolio/micropigmentacion/
+  link: /micropigmentacion/

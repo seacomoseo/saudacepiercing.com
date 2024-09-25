@@ -4,7 +4,7 @@ title: Diseños Personalizados
 image: base/logo.png
 translationKey: disenos-personalizados
 
-seo: Portfolio de Diseños Personalizados 🧷👂🏻 Saudace Piercing
+seo: Diseños Personalizados de Orejas 🧷👂🏻 Saudace Piercing
 
 service_areas:
 - Murcia

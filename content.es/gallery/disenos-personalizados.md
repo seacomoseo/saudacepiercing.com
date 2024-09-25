@@ -5,6 +5,7 @@ image: base/logo.png
 translationKey: disenos-personalizados
 
 seo: Diseños Personalizados de Orejas 🧷👂🏻 Saudace Piercing
+description: llll➤ Crea tu look único con diseños personalizados para tus orejas, ✅ adaptados a tu estilo y personalidad.
 
 service_areas:
 - Murcia

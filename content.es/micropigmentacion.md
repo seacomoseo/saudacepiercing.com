@@ -5,6 +5,7 @@ image: base/logo.png
 translationKey: micropigmentacion
 
 seo: Micropigmentación y Microblanding en Murcia 🧷👂🏻 Saudace Piercing
+description: llll➤ Ofrecemos micropigmentación labial, capilar, en cejas y Eyeliner ✅ para realzar tu belleza natural de forma duradera y personalizada.
 
 section:
 - size: lg

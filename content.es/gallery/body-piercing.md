@@ -4,7 +4,8 @@ title: Body Piercing
 image: base/logo.png
 translationKey: body-piercing
 
-seo: Trabajos de Body Piercing 🧷👂🏻 Saudace Piercing
+seo: Portfolio de Body Piercing 🧷👂🏻 Saudace Piercing
+description: llll➤ Realizamos piercings seguros en diversas zonas, ✅ siempre con técnicas asépticas y joyería biocompatible.
 
 service_areas:
 - Murcia

@@ -5,6 +5,7 @@ image: base/logo.png
 translationKey: toothgems
 
 seo: Toothgems / Gemas Dentales en Murcia 🧷👂🏻 Saudace Piercing
+description: llll➤ Decora tu sonrisa con nuestras gemas dentales. ✅ Un proceso indoloro y no invasivo que te da un toque especial.
 
 service_areas:
 - Murcia
@@ -30,11 +31,19 @@ images:
 - toothgems/2024-08-27-18-31-38.jpg
 - toothgems/2024-09-24-23-22-56.jpg
 
----
+features: |
+  - ¡Proceso indoloro!
+  - Técnica NO invasiva
+  - NO daña el esmalte ni la salud bucal
+  - Duración mínima de 6 meses 1 año
+  - No dudes en escribirme para asesorarte
+  - Tenemos diferentes joyas de colores de corte Swarovski
+  - Piezas de oro por encargo
 
-- ¡Proceso indoloro!
-- Técnica NO invasiva
-- NO daña el esmalte ni la salud bucal
-- Duración mínima de 6 meses 1 año
-- No dudes en escribirme para asesorarte
-- Piezas de oro por encargo
+aftercares: |
+  - El adeshivo tarda 24 horas en alcanzar su dureza máxima
+  - Durante las primeras horas no consumir alimentos pegajosos o duros
+  - No manipular la zona con la lengua ni manos
+  - Realizar limpiezas bucales regularmente por un profesional
+
+---

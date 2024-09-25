@@ -5,6 +5,7 @@ image: base/logo.png
 translationKey: joyeria
 
 seo: Joyería 🧷👂🏻 Saudace Piercing
+description: llll➤ Trabajo exclusivamente con joyería biocompatible. ✅ Stock de todo tipo, engarces, ciconias, ópalos naturales de todos los colores y formas, etc.
 
 service_areas:
 - Murcia

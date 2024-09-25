@@ -25,6 +25,12 @@ _:
     label: Imágenes de la Galería
     type: image
     multiple: true
+  - name: features
+    label: Características
+    type: markdown
+  - name: aftercares
+    label: Cuidados
+    type: markdown
   template:
     section:
     - size: xl

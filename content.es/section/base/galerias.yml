@@ -19,6 +19,23 @@ boxes:
   - page: images
     box: images
 
+- if: features
+  span: .75
+  box:
+    columns: 2
+  boxes:
+  - title: Características
+    hn: 2
+    params:
+    - page: features
+      box: content
+  - if: aftercares
+    title: Cuidados
+    hn: 2
+    params:
+    - page: aftercares
+      box: content
+
 - if: content
   content: |
     {{< content >}}

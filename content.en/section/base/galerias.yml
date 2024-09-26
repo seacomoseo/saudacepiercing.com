@@ -1,0 +1,45 @@
+name: Galerías
+title: '{{% param title %}}'
+subtitle: Gallery
+hn: 1
+
+box:
+  gap: 3
+boxes:
+
+- gallery:
+    columns: 6
+    type: columns
+    button: hide
+  params:
+  - page: gallery_columns
+    box: gallery.columns
+  - page: gallery_type
+    box: gallery.type
+  - page: images
+    box: images
+
+- if: features
+  span: .75
+  box:
+    columns: 2
+  boxes:
+  - title: Features
+    hn: 2
+    params:
+    - page: features
+      box: content
+  - if: aftercares
+    title: Aftercares
+    hn: 2
+    params:
+    - page: aftercares
+      box: content
+
+- if: content
+  content: |
+    {{< content >}}
+
+- link: /en/
+  licon: house
+  label: Home

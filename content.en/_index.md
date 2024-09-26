@@ -1,11 +1,11 @@
 ---
-slug: inicio
-title: Inicio
+slug: home
+title: Home
 image: base/logo.png
 translationKey: home
 
-seo: Saudace Piercing & Fine Jewelry 🧷👂🏻 Tienda en Murcia Centro
-description: llll➤ Estudio especializado en body piercing. ✅ Perforaciones Seguras, Joyería Biocompatible, Diseños Personalizados, Seguimiento, Toothgems, Anodizado...
+seo: Saudace Piercing & Fine Jewelry 🧷👂🏻 Shop in Murcia Center
+description: llll➤ Studio specialized in body piercing. ✅ Safe Piercings, Biocompatible Jewelry, Custom Designs, Tracking, Toothgems, Anodized...
 
 menu:
   hide: false
@@ -54,7 +54,7 @@ names:
 legal: Andrea Marín Escribano
 nif: 48746856N
 email: info@saudacepiercing.com
-summary: Estudio especializado en body piercing con perforaciones seguras y joyería biocompatible en Murcia centro. Ofrecemos diseños personalizados y seguimiento post-perforación. También realizamos toothgems, anodizado de joyería y micropigmentación.
+summary: Studio specialized in body piercing with safe piercings and biocompatible jewelry in Murcia center. We offer custom designs and post-piercing follow-up. We also perform toothgems, jewelry anodizing and micropigmentation.
 logo: base/logo.svg
 images:
 - base/logo.svg
@@ -101,24 +101,24 @@ prices: null
 services:
 
 - title: Body Piercing
-  description: Realizamos piercings seguros en diversas zonas, siempre con técnicas asépticas y joyería biocompatible.
-  link: https://saudacepiercing.com/body-piercing/
+  description: We perform safe piercings in various areas, always with aseptic techniques and biocompatible jewelry.
+  link: https://saudacepiercing.com/en/body-piercing/
   area: Murcia
-- title: Diseños Personalizados
-  description: Crea tu look único con diseños personalizados para tus orejas, adaptados a tu estilo y personalidad.
-  link: https://saudacepiercing.com/disenos-personalizados/
+- title: Custom Designs
+  description: Create your unique look with personalized designs for your ears, adapted to your style and personality.
+  link: https://saudacepiercing.com/en/custom-designs/
   area: Murcia
-- title: Toothgems / Gemas Dentales
-  description: Decora tu sonrisa con nuestras gemas dentales. Un proceso indoloro y no invasivo que te da un toque especial.
-  link: https://saudacepiercing.com/toothgems/
+- title: Toothgems
+  description: Decorate your smile with our dental gems. A painless and non-invasive process that gives you a special touch.
+  link: https://saudacepiercing.com/en/toothgems/
   area: Murcia
-- title: Anodizado de Joyería
-  description: Transforma el color de tu joyería con nuestro servicio de anodizado, seguro y de alta calidad.
-  link: https://saudacepiercing.com/anodizado/
+- title: Jewelry Anodizing
+  description: Transform the color of your jewelry with our safe and high quality anodizing service.
+  link: https://saudacepiercing.com/en/anodizing/
   area: Murcia
-- title: Micropigmentación
-  description: Ofrecemos micropigmentación para realzar tu belleza natural de forma duradera y personalizada.
-  link: https://saudacepiercing.com/micropigmentacion/
+- title: Micropigmentation
+  description: We offer micropigmentation to enhance your natural beauty in a lasting and personalized way.
+  link: https://saudacepiercing.com/en/micropigmentation/
   area: Murcia
 
 ---

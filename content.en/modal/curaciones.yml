@@ -1,0 +1,24 @@
+name: Curaciones
+title: Aftercares
+subtitle: Care Tips
+
+step:
+  border: invert
+  underline: true
+steps:
+
+- icon: hands-bubbles
+  title: Maintain Hygiene
+  content: Wash your hands before touching your piercing and clean the new piercing with your aftercare and sterile gauze.
+- icon: virus-slash
+  title: Avoid Contact
+  content: Do not touch or twist the piercing unnecessarily. This can cause irritation and increase the risk of infection.
+- icon: list-check
+  title: Follow the Instructions
+  content: Always follow the instructions I will provide during your appointment to ensure proper healing.
+- icon: heart-pulse
+  title: Inflammation Control
+  content: Some swelling is normal for the first few days. If it persists or worsens, contact me for a check-up.
+- icon: hand-sparkles
+  title: Regular Care
+  content: Perform daily cleanings and keep the piercing away from irritating products such as perfumes or creams.

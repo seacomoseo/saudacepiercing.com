@@ -1,0 +1,65 @@
+name: Testimonios
+title: Testimonials
+subtitle: Nice things you tell me ^^
+review:
+  columns: 3
+  color: white
+  slider: true
+  interval: 8
+reviews:
+
+- title: N. Rodriguez
+  content: |
+    Andrea is a professional with a lot of experience, she makes you feel safe and advises you on the best option for your piercing, the jewelry she has is all beautiful and the place is clean, well decorated, very well cared for.
+
+    It has become my trusted studio every time I want a new piercing!
+  date: 2024-09-08 07:11:27
+  image: https://lh3.googleusercontent.com/a/ACg8ocIW4v_v4YF6fUoK-elXb4RcNO8uzL8wH9d0XxLmixVQcGUPJA=s136
+- title: Ruben M.
+  content: |
+    New place in the center of Murcia.
+
+    As soon as I entered I liked the order and cleanliness.
+
+    The treatment by the banding a 10, very nice and pleasant, she explained everything in detail so I had no doubts.
+
+    A thorough hygiene in the cabinet.
+
+    I have already recommended the place to several people to be banded soon.
+  date: 2024-01-12 08:05:38
+  image: https://lh3.googleusercontent.com/a-/ALV-UjWo5BYVmYG2QlzvNHoLGmn-j3QeJGruo0WQxSrqq9xzbpEEy67v=s136
+- title: Clara M.
+  content: |
+    Andrea is a first class professional.
+
+    Very nice and careful when doing the piercing.
+
+    She did the nostril super well, informing me at all times of the care and maintenance of the same.
+
+    The customer service is exceptional and the prices are very affordable.
+
+    I recommend her 😁🥰🥰😁🥰.
+  date: 2024-07-22 19:35:59
+  image: https://lh3.googleusercontent.com/a-/ALV-UjWsJJcZir56RaCtRsTzV31AaMce_zKA9gQwgapJW1W4W0prE9yt=s136
+- title: Yole
+  content: |
+    I had my eyebrow and bridge done.
+
+    Excellent attention, they solved all my doubts and gave me the tools to avoid infections and problems.
+
+    If you are in Murcia and want a professional job, come here.
+  date: 2024-09-04 11:34:10
+  image: https://lh3.googleusercontent.com/a-/ALV-UjWDF-0delOo4bAGvHxGRIrPLqyHS6ShPXkrz7sX25d3y_pkOFY=s136
+- title: Isabel P.
+  content: |
+    It's not the first time I had a piercing done, but the truth is that with this last one I exceeded the expectations of the previous ones.
+
+    Super professional with a lot of hygiene and they give you all the necessary recommendations for the care of your piercing.
+
+    The place is very nice, I recommend it reliable and quality site. 👌
+  date: 2024-06-27 16:06:09
+  image: https://lh3.googleusercontent.com/a/ACg8ocKkz2k1ZyPCgiCGGz5NvGRs-EVBleNrvy360VESHQ9HzncnwQ=s136
+
+boxes:
+- content: |
+    [btn icon:google See more on Google](https://g.page/r/CQsVjy4qsR1NEBM/review "noindex")

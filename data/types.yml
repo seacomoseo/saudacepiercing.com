@@ -42,3 +42,8 @@ _:
     slug: galerias
     singular: Galería
     title: Galerías
+  en:
+    permalinks: ''
+    slug: galleries
+    singular: Gallery
+    title: Galleries

@@ -5,6 +5,5 @@ langs:
   google_analytics: G-K4DF7MGMRZ
 - lang: en
   description: Studio specialized in body piercing with safe piercings and biocompatible jewelry in Murcia center. We offer custom designs and post-piercing follow-up. We also perform toothgems, jewelry anodizing and micropigmentation.
-  disabled: true
 cms:
   logo: base/icon.svg

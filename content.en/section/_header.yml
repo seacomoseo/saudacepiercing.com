@@ -1,0 +1,28 @@
+name: Cabecera
+hanchor: Piercing Shop in Murcia Center
+bg: intro.jpg
+full: true
+size: md
+box:
+  columns: 2
+  gap: 5
+  align_y: center
+boxes:
+- span: 1.1
+  boxes:
+  - image: base/icon-animation.svg
+    span: .75
+    span_min: .75
+  - title: Saudace Piercing
+    hn: p
+    hs: 2
+    underline: false
+    subtitle: '& Fine Jewelry'
+    content: |
+      ==icon:sign-simple **Studio Specializing in Body Piercing**==
+
+      Aseptic technique, American needle, biocompatible and **exclusive** jewelry.
+
+      [btn icon:sparkle Make an appointment](#contact)
+- span: .9
+  image: intro.webm#mute

@@ -80,23 +80,18 @@ address:
   link: https://maps.google.com/?cid=5556792309972931851
 areas:
 - Murcia
-open:
+schedule:
 - days:
   - monday
   - tuesday
   - wednesday
   - thursday
   - friday
-  opens: 11:00
-  closes: 14:00
-- days:
-  - monday
-  - tuesday
-  - wednesday
-  - thursday
-  - friday
-  opens: 17:00
-  closes: 20:00
+  hours:
+  - open: 11:00
+    close: 14:00
+  - open: 17:00
+    close: 20:00
 prices: null
 services:
 

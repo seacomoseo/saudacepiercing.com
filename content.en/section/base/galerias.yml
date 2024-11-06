@@ -1,5 +1,5 @@
 name: Galerías
-title: '{{% param title %}}'
+title: '{{ param title }}'
 subtitle: Gallery
 hn: 1
 

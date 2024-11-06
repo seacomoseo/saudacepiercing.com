@@ -13,9 +13,9 @@ boxes:
     hours: 11:00 - 14:00 y 17:00 - 20:00
     full: true
   - type: phone
-    label: '{{% param phones.0 %}}'
+    label: '{{ param phones.0 }}'
   - type: whatsapp
-    label: '{{% param phones.0 %}}'
+    label: '{{ param phones.0 }}'
   - type: custom
     icon: instagram
     label: '@saudace_piercing'
@@ -33,8 +33,8 @@ boxes:
   # - type: mail
   #   label: info@saudacepiercing.com
   - type: address
-    label: '{{% param address.street %}}, {{% param address.pc %}} {{% param address.locality %}}'
-    anchor: '{{% address-url %}}'
+    label: '{{ param address.street }}, {{ param address.pc }} {{ param address.locality }}'
+    anchor: '{{ address-url }}'
     button: invert
   # inputs:
   # - type: text
@@ -51,7 +51,7 @@ boxes:
 - span: .7
   view: map
   bg: mapa.png
-  link: '{{% address-url %}}'
+  link: '{{ address-url }}'
   ofuscate: true
   rate: 3x2
   button: hide

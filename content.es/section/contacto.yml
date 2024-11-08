@@ -4,7 +4,8 @@ subtitle: ¡Cuéntame tus ideas!
 menu_button: link
 box:
   columns: 2
-  gap_min: 5
+  gap: 3
+  align_y: center
 boxes:
 - span: 1.3
   contact:
@@ -49,9 +50,7 @@ boxes:
   #   name: Mensaje
   #   required: true
 - span: .7
-  view: map
-  bg: mapa.png
-  link: '{{ address-url }}'
-  ofuscate: true
-  rate: 3x2
-  button: hide
+  rate: 3/2
+  map:
+  - type: point
+    geo: '{"type":"Point","coordinates":[-1.1275327,37.9874351]}'

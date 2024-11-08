@@ -7,7 +7,7 @@ box:
   color: dark
   inset: true
   # grayscale: true
-  ratio: 16x9
+  ratio: 16/9
   hs: 3
   licon: eye
   label: See works

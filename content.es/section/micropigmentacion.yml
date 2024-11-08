@@ -8,7 +8,7 @@ boxes:
 - box:
     columns: 2
     gap: 5
-    ratio: 1x1
+    ratio: 1/1
     align_y: center
   boxes:
   - order: 2
@@ -31,7 +31,7 @@ boxes:
 - box:
     columns: 2
     gap: 5
-    ratio: 1x1
+    ratio: 1/1
     align_y: center
   boxes:
   - image: micropigmentacion/ojos-despues.jpg
@@ -52,7 +52,7 @@ boxes:
 - box:
     columns: 2
     gap: 5
-    ratio: 1x1
+    ratio: 1/1
     align_y: center
   boxes:
   - order: 2
@@ -73,7 +73,7 @@ boxes:
 - box:
     columns: 2
     gap: 5
-    ratio: 1x1
+    ratio: 1/1
     align_y: center
   boxes:
   - image: micropigmentacion/cejas-antes-despues.jpg

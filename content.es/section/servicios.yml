@@ -9,6 +9,7 @@ box:
   # grayscale: true
   ratio: 16/9
   hs: 3
+  underline: true
   licon: eye
   label: Ver trabajos
 boxes:

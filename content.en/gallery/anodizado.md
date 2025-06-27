@@ -1,7 +1,7 @@
 ---
 slug: anodizing
 title: Anodizing
-image: base/logo.png
+image: base/poster.png
 translationKey: anodizado
 
 seo: Jewelry Anodizing Service 🧷👂🏻 Saudace Piercing
@@ -10,7 +10,7 @@ description: llll➤ Transform the color of your jewelry with our safe and high 
 service_areas:
 - Murcia
 
-gallery_columns: 4
+gallery_cols: 4
 gallery_type: grid
 images:
 - joyeria/anodizado/2024-09-25_13-48-31.jpg

@@ -2,11 +2,11 @@ name: Micropigmentación
 hanchor: Micropigmentation and Microblading in Murcia, Spain
 title: Micropigmentation
 subtitle: and Microblanding
-content: Define your style with Precision
+md: Define your style with Precision
 boxes:
 
 - box:
-    columns: 2
+    cols: 2
     gap: 5
     ratio: 1/1
     align_y: center
@@ -14,22 +14,22 @@ boxes:
   - order: 2
     image: micropigmentacion/labios-antes-despues.jpg
   - align: left
-    align_max: right
+    align_vl: right
     hs: 3
     title: Lips
     hanchor: Lip Micropigmentation in Murcia
     subtitle: Lip Micropigmentation
-    content: |
+    md: |
       This technique is ideal for balancing small asymmetries and redesigning the contour of your lips.
 
       In addition, you will always look perfect as it achieves a very natural result.
 
       Great variety of shades available.
 
-      [btn Contact](/en/#contact)
+      [[Contact]](/en/#contact)
 
 - box:
-    columns: 2
+    cols: 2
     gap: 5
     ratio: 1/1
     align_y: center
@@ -40,17 +40,17 @@ boxes:
     title: Eyes
     hanchor: Eyeliner in Murcia (Spain)
     subtitle: Eyeliner
-    content: |
+    md: |
       Are you tired of applying makeup every day?
 
       This technique is a semi-permanent makeup with which you will save time in your day to day.
 
       Wide variety of shades available.
 
-      [btn Contact](/en/#contact)
+      [[Contact]](/en/#contact)
 
 - box:
-    columns: 2
+    cols: 2
     gap: 5
     ratio: 1/1
     align_y: center
@@ -58,20 +58,20 @@ boxes:
   - order: 2
     image: micropigmentacion/capilar-antes-despues.jpg
   - align: left
-    align_max: right
+    align_vl: right
     hs: 3
     title: Head
     hanchor: Hair Micropigmentation in Murcia
     subtitle: Hair Micropigmentation
-    content: |
+    md: |
       Do you want to hide a scar or fill in a gap?
 
       With this technique you will obtain a super natural shaved effect.
 
-      [btn Contact](/en/#contact)
+      [[Contact]](/en/#contact)
 
 - box:
-    columns: 2
+    cols: 2
     gap: 5
     ratio: 1/1
     align_y: center
@@ -82,10 +82,10 @@ boxes:
     title: Eyebrows
     hanchor: Micropigmentation in Eyebrows in Murcia
     subtitle: Micropigmentation in Eyebrows
-    content: |
+    md: |
       Choose the technique that best suits your style:
 
       - Hair by hair technique for a natural effect.
       - Combination of techniques for a more marked and defined effect.
 
-      [btn Contact](/en/#contact)
+      [[Contact]](/en/#contact)

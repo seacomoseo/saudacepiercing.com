@@ -4,27 +4,27 @@ subtitle: Conoce mi forma de trabajar
 
 step:
   border: invert
-  underline: true
+  line: true
 steps:
 
 - icon: hand-sparkles
   title: Técnica Aséptica
-  content: |
+  md: |
     Todo el material que utilizo está previamente esterilizado, siguiendo un conjunto de medidas que pueden realizarse en forma separada o combinada, dependiendo del procedimiento clínico, y que se deben cumplir para mantener la esterilidad durante el proceso de la perforación, garantizando la bioseguridad.
 
 - icon: pen
   title: Aguja Americana
-  content: |
+  md: |
     Utilizo únicamente Aguja Americana. Esta aguja especial para el body piercing, permite perforar de un modo más rápido y limpio, lo que se traduce en menos dolor, menor inflamación y proceso de curación más rápido.
 
 - icon: gem
   title: Joyería Biocompatible
-  content: |
+  md: |
     Trabajo únicamente con materiales biocompatibles como el titanio,oro,niobio y vidrio de borosilicato para minimizar el riesgo de rechazos y asegurar la curación, los materiales biocompatibles son los que como su nombre indica son compatibles con el cuerpo.
 
 - icon: hand-holding-medical
   title: Después de mi Nueva Perforación
-  content: |
+  md: |
     Una vez terminada la cita te daré unos tips sencillos sobre cómo realizar la curación de tu nuevo piercing y concretaremos unas citas para hacer un seguimiento de la perforación.
 
     Haremos el conocido ‘Downsize’. Esta revisión es imprescindible ya que hay que cambiar el largo de la joya una vez bajada la inflamación para evitar riesgos.

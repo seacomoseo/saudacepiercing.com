@@ -5,15 +5,15 @@ subtitle: ¿Quién soy?
 size: lg
 
 box:
-  columns: 2
+  cols: 2
   gap: 5
   align: left
   align_y: center
 boxes:
-- span: .75
+- fit: .75
   image: trabajando/2024-01-19-17-49-30.png
-- span: 1.25
-  content: |
+- fit: 1.25
+  md: |
     **Soy ==icon:sign-simple Andrea Marín==, anilladora y dueña del local Saudace Piercing.**
 
     Tengo 27 años y me dedico al body piercing profesionalmente desde 2017, aunque mis intereses e inquietudes por esta profesión surgieron mucho antes, cuando empecé a perforar de forma esporádica a conocidos con 15 añitos, hasta el 2017, que fué cuando me surmergí de lleno en esta profesión y descubrí que el body piercing es mi pasión y una parte imprescincible de mi vida.
@@ -26,5 +26,5 @@ boxes:
 
     Abrí las puertas de mi propio local el 17 de diciembre de 2024, ya que después de una vida laboral nómada, quería volver a asentarme en mi ciudad y darle el espacio que se merece esta profesión.
 
-    [btn:font-alt icon:instagram @saudace_piercing](https://www.instagram.com/saudace_piercing/ "nofollow")
-    [btn:font-alt icon:instagram @andrea_bodypiercer_](https://www.instagram.com/andrea_bodypiercer_/ "nofollow")
+    [[:instagram: @saudace_piercing]](https://www.instagram.com/saudace_piercing/ "[nofollow swap]")
+    [[:instagram: @andrea_bodypiercer_]](https://www.instagram.com/andrea_bodypiercer_/ "[nofollow swap]")

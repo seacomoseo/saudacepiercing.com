@@ -1,7 +1,7 @@
 ---
 slug: body-piercing
 title: Body Piercing
-image: base/logo.png
+image: base/poster.png
 translationKey: body-piercing
 
 seo: Portfolio de Body Piercing 🧷👂🏻 Saudace Piercing
@@ -10,7 +10,7 @@ description: llll➤ Realizamos piercings seguros en diversas zonas, ✅ siempre
 service_areas:
 - Murcia
 
-gallery_columns: 6
+gallery_cols: 6
 gallery_type: grid
 images:
 - piercing/mix/2024-07-30-19-22-02.jpg

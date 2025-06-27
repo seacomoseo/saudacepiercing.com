@@ -8,38 +8,38 @@ box:
 boxes:
 
 - gallery:
-    columns: 6
-    type: columns
+    cols: 6
+    type: cols
     button: hide
   params:
-  - page: gallery_columns
-    box: gallery.columns
+  - page: gallery_cols
+    box: gallery.cols
   - page: gallery_type
     box: gallery.type
   - page: images
     box: images
 
 - if: features
-  span: .75
+  fit: .75
   box:
-    columns: 2
+    cols: 2
   boxes:
   - title: Características
     hn: 2
     params:
     - page: features
-      box: content
+      box: md
   - if: aftercares
     title: Cuidados
     hn: 2
     params:
     - page: aftercares
-      box: content
+      box: md
 
 - if: content
-  content: |
+  md: |
     {{< content >}}
 
 - link: /
-  licon: house
+  pin: house
   label: Inicio

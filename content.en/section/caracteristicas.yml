@@ -5,31 +5,31 @@ subtitle: What sets me apart
 boxes:
 
 - box:
-    columns: 2
+    cols: 2
     gap: 5
     ratio: 1/1
     align_y: center
   boxes:
   - order: 2
-    bg: trabajando/2022-09-01-00-00-02.webp
+    bi: trabajando/2022-09-01-00-00-02.webp
     parallax: soft
     rate: 1/1
   - align: left
-    align_max: right
+    align_vl: right
     hs: 3
     title: Safe Piercings
     subtitle: And with the best materials
-    content: |
+    md: |
       Saudace piercing is a studio created to give the place it deserves to the body piercing in our city, where the necessary standards are applied to perform a piercing safely.
 
       All our facilities create a circuit that minimizes the risks of cross-contamination, which makes the space safe for everyone.
 
       My working praxis is based on using a set of techniques that lead to a safe piercing, such as the aseptic technique with an American needle. In addition, I only and exclusively work with biocompatible jewelry.
 
-      [btn icon:sparkles See Praxis](#praxis)
+      [[:sparkles: See Praxis]](#praxis)
 
 - box:
-    columns: 2
+    cols: 2
     gap: 5
     ratio: 1/1
     align_y: center
@@ -39,7 +39,7 @@ boxes:
     hs: 3
     title: Advice
     subtitle: I will be happy to guide you
-    content: |
+    md: |
       The piercing is an ancient technique and must be treated with great respect, if it is not done by a professional it can have irreversible consequences.
 
       If you do not know what would be the best choice for you, you can contact me, and I will advise you until you reach the best option.
@@ -48,10 +48,10 @@ boxes:
 
       You can also get inspired by the works you will find on this page.
 
-      [btn icon:eye See Works](/en/body-piercing/)
+      [[:eye: See Works]](/en/body-piercing/)
 
 - box:
-    columns: 2
+    cols: 2
     gap: 5
     ratio: 1/1
     align_y: center
@@ -59,33 +59,33 @@ boxes:
   - order: 2
     image: joyeria/mix/2024-01-30-16-57-57.jpg
   - align: left
-    align_max: right
+    align_vl: right
     hs: 3
     title: The best jewelry
     subtitle: I work exclusively with biocompatible jewelry
-    content: |
+    md: |
       Which will ensure your healing. I use materials such as ASTMF136 certified implant grade titanium, 14k and 18k gold, niobium and borosilicate glass.
 
       I have jewelry in stock to suit all tastes. From settings, cyconias, opals or opal stone (natural stones) of all colors and different shapes.
 
-      [btn icon:gem See Jewelry](/en/jewelry/)
+      [[:gem: See Jewelry]](/en/jewelry/)
 
 - box:
-    columns: 2
+    cols: 2
     gap: 5
     ratio: 1/1
     align_y: center
   boxes:
-  - bg: local/aftercare.jpg
+  - bi: local/aftercare.jpg
     parallax: soft
     rate: 1/1
   - align: left
     hs: 3
     title: Aftercares
     subtitle: Take care of your piercing
-    content: |
+    md: |
       My work does not end when I make your piercing, but we will do a **follow up** and I will be available for you, until your piercing is completely healthy.
 
       Here are some tips to take care of your new piercing.
 
-      [btn icon:hand-holding-medical See aftercares](#aftercares)
+      [[:hand-holding-medical: See aftercares]](#aftercares)

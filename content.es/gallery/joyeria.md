@@ -1,7 +1,7 @@
 ---
 slug: joyeria
 title: Joyería
-image: base/logo.png
+image: base/poster.png
 translationKey: joyeria
 
 seo: Joyería 🧷👂🏻 Saudace Piercing
@@ -10,7 +10,7 @@ description: llll➤ Trabajo exclusivamente con joyería biocompatible. ✅ Stoc
 service_areas:
 - Murcia
 
-gallery_columns: 4
+gallery_cols: 4
 gallery_type: grid
 images:
 - joyeria/pendientes/2024-07-16-18-47-27.jpg

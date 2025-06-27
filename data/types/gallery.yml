@@ -4,12 +4,12 @@ icon: rectangle-history
 emoji: 📁
 noindex: false
 params:
-- name: gallery_columns
+- name: gallery_cols
   label: Nº de Columnas de la Galería
-  type: int
+  widget: int
 - name: gallery_type
   label: Tipo de Galería
-  type: select
+  widget: select
   options:
   - label: Rejilla
     value: grid
@@ -18,21 +18,21 @@ params:
   - label: Filas
     value: rows
   - label: Columnas
-    value: columns
+    value: cols
 - name: images
   label: Imágenes de la Galería
-  type: image
+  widget: image
   multiple: true
 - name: features
   label: Características
-  type: markdown
+  widget: markdown
 - name: aftercares
   label: Cuidados
-  type: markdown
-template:
+  widget: markdown
+tpl:
   section:
   - size: xl
-    underline: true
+    line: true
   sections:
   - file: base/galerias
 es:

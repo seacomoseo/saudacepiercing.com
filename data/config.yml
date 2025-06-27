@@ -7,3 +7,5 @@ langs:
   description: Studio specialized in body piercing with safe piercings and biocompatible jewelry in Murcia center. We offer custom designs and post-piercing follow-up. We also perform toothgems, jewelry anodizing and micropigmentation.
 cms:
   logo: base/icon.svg
+others:
+  show: true

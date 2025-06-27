@@ -1,40 +1,40 @@
 name: Contacto
 title: Contacto
 subtitle: ¡Cuéntame tus ideas!
-menu_button: link
+menu_button: cta
 box:
-  columns: 2
+  cols: 2
   gap: 3
   align_y: center
 boxes:
-- span: 1.3
+- fit: 1.3
   contact:
   - type: schedule
     days: Lunes a Viernes
     hours: 11:00 - 14:00 y 17:00 - 20:00
     full: true
   - type: phone
-    label: '{{ param phones.0 }}'
+    label: '{{ param org.phones.0 }}'
   - type: whatsapp
-    label: '{{ param phones.0 }}'
+    label: '{{ param org.phones.0 }}'
   - type: custom
     icon: instagram
     label: '@saudace_piercing'
     link: https://www.instagram.com/saudace_piercing/
-    ofuscate: true
+    lock: true
     button: invert
-    font_alt: true
+    swap: true
     ga4: true
   - type: custom
     icon: calendar
     label: Cita directa
     link: https://inkoru.com/SCkjCb
-    ofuscate: true
+    lock: true
     ga4: true
   # - type: mail
   #   label: info@saudacepiercing.com
   - type: address
-    label: '{{ param address.street }}, {{ param address.pc }} {{ param address.locality }}'
+    label: '{{ param org.address.street }}, {{ param org.address.pc }} {{ param org.address.locality }}'
     anchor: '{{ address-url }}'
     button: invert
   # inputs:
@@ -49,8 +49,8 @@ boxes:
   # - type: textarea
   #   name: Mensaje
   #   required: true
-- span: .7
+- fit: .7
   rate: 3/2
-  map:
+  geos:
   - type: point
     geo: '{"type":"Point","coordinates":[-1.1275327,37.9874351]}'

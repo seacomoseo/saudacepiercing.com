@@ -1,4 +1,4 @@
-background:
+bg:
   color: dark
 menu:
   hide: true
@@ -14,10 +14,10 @@ menu:
 modal:
   size: xl
   color: dark
-  underline: true
+  line: true
 list:
-  columns: 3
-  declive: true
+  cols: 3
+  shade: true
   ratio: 16/9
   inset: true
   align: left

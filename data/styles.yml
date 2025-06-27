@@ -1,17 +1,22 @@
 icons:
   type: light
   sharp: true
-  emojis: ''
-  emojis_default: false
+  emojis: false
+  play: youtube-iframe
+  up: ''
+  down: ''
+  left: ''
+  right: ''
 fonts:
-  google: false
   base:
+    google: false
     family: Montserrat
     weight: 400
     bold: 600
     italic: false
     line_height: 1.25
   cursive:
+    google: false
     family: Birds of Paradise
     weight: 400
     bold: 0
@@ -20,6 +25,7 @@ fonts:
     size: 1
     top: 0
   title:
+    google: false
     family: Amika Blackletter
     weight: 400
     bold: 0
@@ -33,21 +39,30 @@ colors:
     color: '#fdc31e'
     light: ''
     dark: ''
-    contrast: text
+    contrast:
+      fill: false
+      in: true
+      text: true
   alt:
     color: ''
     light: ''
     dark: ''
-    contrast: all
-  link:
+    contrast:
+      fill: true
+      in: true
+      text: true
+  cta:
     color: ''
     light: ''
     dark: ''
-    contrast: text
+    contrast:
+      fill: false
+      in: true
+      text: true
   base:
     white: '#fff'
     light: '#eee'
-    grey: '#767676'
+    gray: '#767676'
     dark: '#112329'
     black: '#1d1d1b'
 rounded:
@@ -55,24 +70,23 @@ rounded:
   chamfer: true
 buttons:
   sides_round: false
-  icon_circle: false
+  dot_circle: false
   deep: false
   outline: true
-  font_main:
+  font:
     type: base
     bold: true
-    uppercase: true
-  font_alt:
+    caps: true
+  swap:
     type: base
     bold: false
-    uppercase: false
+    caps: false
 inputs:
   fill: false
+  labels_out: false
 shadow:
   left: 0.15
   top: 0.15
   blur: 0.15
   color: black
   alpha: 0.85
-performance:
-  show: true

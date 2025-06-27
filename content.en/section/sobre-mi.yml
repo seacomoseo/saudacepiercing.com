@@ -3,16 +3,16 @@ title: About me
 subtitle: Who is Saudace?
 
 box:
-  columns: 2
+  cols: 2
   gap: 5
-  gap_min: 2
+  gap_vs: 2
   align: left
   align_y: center
 boxes:
 - image: trabajando/andrea.webm#mute
-- content: |
+- md: |
     **I am ==icon:sign-simple Andrea Marín==, ring piercer and owner of Saudace Piercing.**
 
     I am 27 years old and I dedicate myself to body piercing professionally since 2017, although my interests and concerns for this profession came much earlier, when I started to pierce sporadically to acquaintances with 15 years old, until 2017, which was when I fully emerged in this profession and discovered that body piercing is my passion and an indispensable part of my life….
 
-    [btn icon:plus Read more…](#more-about-me)
+    [[:plus: Read more…]](#more-about-me)

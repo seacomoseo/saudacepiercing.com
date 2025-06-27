@@ -1,7 +1,7 @@
 title: Todas
 
-template:
-  background:
+tpl:
+  bg:
     color: dark
   menu:
     hide: true
@@ -20,7 +20,7 @@ template:
   modal:
     size: xl
     color: dark
-    underline: true
+    line: true
   sections:
   - file: base/_header
   - file: base/toc
@@ -33,8 +33,8 @@ template:
   - file: base/share
   - file: base/related
   list:
-    columns: 3
-    declive: true
+    cols: 3
+    shade: true
     ratio: 16/9
     inset: true
     align: left

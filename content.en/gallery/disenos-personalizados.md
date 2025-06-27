@@ -1,7 +1,7 @@
 ---
 slug: custom-designs
 title: Custom Designs
-image: base/logo.png
+image: base/poster.png
 translationKey: disenos-personalizados
 
 seo: Custom Ear Designs 🧷👂🏻 Saudace Piercing
@@ -10,7 +10,7 @@ description: llll➤ Create your unique look with custom designs for your ears, 
 service_areas:
 - Murcia
 
-gallery_columns: 5
+gallery_cols: 5
 gallery_type: grid
 images:
 - piercing/disenos-personalizados/2024-09-24-20-56-30.jpg

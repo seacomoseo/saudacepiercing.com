@@ -2,21 +2,21 @@ name: Testimonios
 title: Testimonios
 subtitle: Cositas bonitas que me decís ^^
 review:
-  columns: 3
+  cols: 3
   color: white
   slider: true
-  interval: 8
+  time: 8
 reviews:
 
 - title: N. Rodriguez
-  content: |
+  md: |
     Andrea es toda una profesional con mucha experiencia, te hace sentir segura y te aconseja la mejor opción para tu piercing, la joyería que tiene es toda preciosa y el sitio limpio, bien decorado, muy cuidado.
 
     Se ha convertido en mi estudio de confianza cada vez que quiero un piercing nuevo!
   date: 2024-09-08 07:11:27
   image: https://lh3.googleusercontent.com/a/ACg8ocIW4v_v4YF6fUoK-elXb4RcNO8uzL8wH9d0XxLmixVQcGUPJA=s136
 - title: Ruben M.
-  content: |
+  md: |
     Local nuevo en el centro de Murcia.
 
     Nada más entrar me gustó mucho el orden y la limpieza.
@@ -29,7 +29,7 @@ reviews:
   date: 2024-01-12 08:05:38
   image: https://lh3.googleusercontent.com/a-/ALV-UjWo5BYVmYG2QlzvNHoLGmn-j3QeJGruo0WQxSrqq9xzbpEEy67v=s136
 - title: Clara M.
-  content: |
+  md: |
     Andrea es una profesional de primera.
 
     Muy agradable y cuidadosa a la hora de hacer los piercing.
@@ -42,7 +42,7 @@ reviews:
   date: 2024-07-22 19:35:59
   image: https://lh3.googleusercontent.com/a-/ALV-UjWsJJcZir56RaCtRsTzV31AaMce_zKA9gQwgapJW1W4W0prE9yt=s136
 - title: Yole
-  content: |
+  md: |
     Me hice el de la ceja y el Bridge.
 
     Atención excelente, me solucionaron todas las dudas y me dieron las herramientas para evitar infecciones y problemas.
@@ -51,7 +51,7 @@ reviews:
   date: 2024-09-04 11:34:10
   image: https://lh3.googleusercontent.com/a-/ALV-UjWDF-0delOo4bAGvHxGRIrPLqyHS6ShPXkrz7sX25d3y_pkOFY=s136
 - title: Isabel P.
-  content: |
+  md: |
     No es la primera vez que me había hecho un piercing, pero la verdad que con este último supero las expectativas de los anteriores.
 
     Super profesional con mucho higiene y te dan todas las recomendaciones necesarias para el cuidado de tu perforación.
@@ -61,5 +61,5 @@ reviews:
   image: https://lh3.googleusercontent.com/a/ACg8ocKkz2k1ZyPCgiCGGz5NvGRs-EVBleNrvy360VESHQ9HzncnwQ=s136
 
 boxes:
-- content: |
-    [btn icon:google Ver más en Google](https://g.page/r/CQsVjy4qsR1NEBM/review "noindex")
+- md: |
+    [[:google: Ver más en Google]](https://g.page/r/CQsVjy4qsR1NEBM/review "[nofollow]")

@@ -1,7 +1,7 @@
 ---
 slug: toothgems
 title: Toothgems
-image: base/logo.png
+image: base/poster.png
 translationKey: toothgems
 
 seo: Toothgems / Gemas Dentales en Murcia 🧷👂🏻 Saudace Piercing
@@ -10,7 +10,7 @@ description: llll➤ Decora tu sonrisa con nuestras gemas dentales. ✅ Un proce
 service_areas:
 - Murcia
 
-gallery_columns: 5
+gallery_cols: 5
 gallery_type: grid
 images:
 - toothgems/2022-04-04-13-21-36.jpg

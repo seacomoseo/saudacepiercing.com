@@ -1,28 +1,28 @@
 name: Cabecera
 hanchor: Tienda de Piercing en Murcia Centro
-bg: intro.jpg
+bi: intro.jpg
 full: true
 size: md
 box:
-  columns: 2
+  cols: 2
   gap: 5
   align_y: center
 boxes:
-- span: 1.1
+- fit: 1.1
   boxes:
   - image: base/icon-animation.svg
-    span: .75
-    span_min: .75
+    fit: .75
+    fit_vs: .75
   - title: Saudace Piercing
     hn: p
     hs: 2
-    underline: false
+    line: false
     subtitle: '& Fine Jewelry'
-    content: |
+    md: |
       ==icon:sign-simple **Estudio Especializado en Body Piercing**==
 
       Técnica aséptica, aguja americana, joyería biocompatible y **exclusiva**
 
-      [btn icon:sparkle Pide tu cita](#contacto)
-- span: .9
+      [[:sparkle: Pide tu cita]](#contacto)
+- fit: .9
   image: intro.webm#mute

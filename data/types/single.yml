@@ -19,21 +19,21 @@ params:
 - pages: [ _home ]
   name: header
   label: Cabecera
-  type: object
+  widget: object
   params:
   - var: box_hanchor
   - var: box_md
 - pages: [ _home ]
   name: services
   label: Servicios
-  type: object
+  widget: object
   params:
   - var: box_title
   - var: box_subtitle
   - var: box_button_label
   - name: boxes
     label: Elementos
-    type: object
+    widget: object
     params:
     - var: box_image_src
     - var: box_title
@@ -42,48 +42,48 @@ params:
 - pages: [ _home ]
   name: features
   label: Características
-  type: object
+  widget: object
   params:
     - var: box_title
     - var: box_subtitle
     - name: safe
       label: Seguridad
-      type: object
+      widget: object
       params:
         - var: box_title
         - var: box_subtitle
         - var: box_md
     - name: consulting
       label: Asesoramiento
-      type: object
+      widget: object
       params:
         - var: box_title
         - var: box_subtitle
         - var: box_md
     - name: better
       label: Mejor
-      type: object
+      widget: object
       params:
         - var: box_title
         - var: box_subtitle
         - var: box_md
     - name: aftercare
       label: Aftercare
-      type: object
+      widget: object
       params:
         - var: box_title
         - var: box_subtitle
         - var: box_md
     - name: praxis
       label: Praxis
-      type: object
+      widget: object
       params:
         - var: box_title
         - var: box_subtitle
         - var: box_steps
     - name: healings
       label: Curaciones
-      type: object
+      widget: object
       params:
         - var: box_title
         - var: box_subtitle
@@ -91,14 +91,14 @@ params:
 - pages: [ _home ]
   name: about
   label: Sobre mí
-  type: object
+  widget: object
   params:
     - var: box_title
     - var: box_subtitle
     - var: box_md
     - name: modal
       label: Popup
-      type: object
+      widget: object
       params:
         - var: box_title
         - var: box_subtitle
@@ -106,7 +106,7 @@ params:
 - pages: [ _home ]
   name: feedback
   label: Testimonios
-  type: object
+  widget: object
   params:
   - var: box_title
   - var: box_subtitle
@@ -115,7 +115,7 @@ params:
 - pages: [ _home ]
   name: faq
   label: FAQ
-  type: object
+  widget: object
   params:
   - var: box_title
   - var: box_subtitle
@@ -123,7 +123,7 @@ params:
 - pages: [ _home ]
   name: contact
   label: Contacto
-  type: object
+  widget: object
   params:
   - var: box_title
   - var: box_subtitle
@@ -134,7 +134,7 @@ params:
 - pages: [ micropigmentacion ]
   name: micro
   label: Servicios
-  type: object
+  widget: object
   params:
     - var: box_hanchor
     - var: box_title
@@ -142,7 +142,7 @@ params:
     - var: box_md
     - name: lips
       label: Labios
-      type: object
+      widget: object
       params:
         - var: box_hanchor
         - var: box_title
@@ -150,7 +150,7 @@ params:
         - var: box_md
     - name: eyes
       label: Ojos
-      type: object
+      widget: object
       params:
         - var: box_hanchor
         - var: box_title
@@ -158,7 +158,7 @@ params:
         - var: box_md
     - name: head
       label: Cabeza
-      type: object
+      widget: object
       params:
         - var: box_hanchor
         - var: box_title
@@ -166,7 +166,7 @@ params:
         - var: box_md
     - name: brows
       label: Cejas
-      type: object
+      widget: object
       params:
         - var: box_hanchor
         - var: box_title

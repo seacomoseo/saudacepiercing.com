@@ -12,7 +12,7 @@ others:
 params:
 - name: gallery
   label: Galerías
-  type: object
+  widget: object
   params:
   - var: box_subtitle
     label: Galería
@@ -20,5 +20,5 @@ params:
     label: Características
   - name: aftercares
     label: Cuidados
-  - name: box_button_label
+  - var: box_button_label
     label: Inicio

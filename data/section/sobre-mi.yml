@@ -1,0 +1,43 @@
+name: Sobre mí
+
+params:
+- from: about.title
+  to: title
+- from: about.subtitle
+  to: subtitle
+
+box:
+  cols: 2
+  gap: 5
+  gap_vs: 2
+  align: left
+  align_y: center
+boxes:
+- image: trabajando/andrea.webm#mute
+- params:
+  - from: about.md
+    to: md
+
+modal:
+  size: xl
+  color: dark
+  line: true
+modals:
+- params:
+  - from: about.modal.title
+    to: title
+  - from: about.modal.subtitle
+    to: subtitle
+  size: lg
+  box:
+    cols: 2
+    gap: 5
+    align: left
+    align_y: center
+  boxes:
+  - fit: 0.75
+    image: trabajando/2024-01-19-17-49-30.png
+  - fit: 1.25
+    params:
+    - from: about.modal.md
+      to: md

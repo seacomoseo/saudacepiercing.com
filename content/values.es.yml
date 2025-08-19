@@ -1,0 +1,25 @@
+title: Valores Globales
+menu:
+  image: base/logo-h.svg
+callnows:
+- type: whatsapp
+  label: +34 667 53 52 48
+gallery:
+  subtitle: Galería
+  features: Características
+  aftercares: Cuidados
+  label: Inicio
+footer:
+  color: white
+  div: curve-corner-op
+  dots:
+  - link: https://www.instagram.com/saudace_piercing/
+  - link: https://www.facebook.com/piercingsmurcia/
+  - link: https://g.page/r/CQsVjy4qsR1NEBM
+  md: |
+    - :copyright:      {{< internal-link index >}}
+    - :scale-balanced: {{< internal-link legal >}}
+    - :shield-keyhole: {{< internal-link privacy >}}
+    - :cookie-bite:    {{< internal-link cookies >}}
+    - :seacomoseo:     {{< i18n web_design >}} [seacomoseo.com](https://seacomoseo.com/ "[homefollow]")
+    {.list-inline}

@@ -1,37 +1,30 @@
 title: Todas
-
 tpl:
   bg:
     color: dark
   menu:
     hide: true
     color: dark
+    sticky: auto
+    transparent: true
     logo: true
     logo_align: center
-    transparent: true
-    size: sm
-    es:
-      image: base/logo-h.svg
-    en:
-      image: base/logo-h.svg
-  callnow: {}
+    size: lg
+    hide_icons: true
+  callnow: custom
   section:
   - size: sm
-  modal:
-    size: xl
-    color: dark
-    line: true
   sections:
-  - file: base/_header
-  - file: base/toc
-  - file: base/content
-  - file: base/address
-  - file: base/author
-  - file: base/social
-  - file: base/comments
-  - file: base/children
-  - file: base/share
-  - file: base/related
+  - file: base-_header
+  - file: base-toc
+  - file: base-content
+  - file: base-address
+  - file: base-author
+  - file: base-social
+  - file: base-comments
+  - file: base-children
+  - file: base-share
+  - file: base-related
   list:
     cols: 3
     shade: true

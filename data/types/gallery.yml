@@ -3,22 +3,18 @@ base: service
 icon: rectangle-history
 emoji: 📁
 noindex: false
+
+tpl:
+  section:
+  - size: xl
+    line: true
+  sections:
+  - file: galerias
+
 params:
 - name: gallery_cols
   label: Nº de Columnas de la Galería
   widget: int
-- name: gallery_type
-  label: Tipo de Galería
-  widget: select
-  options:
-  - label: Rejilla
-    value: grid
-  - label: Rejilla Contenedora
-    value: grid-contain
-  - label: Filas
-    value: rows
-  - label: Columnas
-    value: cols
 - name: images
   label: Imágenes de la Galería
   widget: image
@@ -29,12 +25,7 @@ params:
 - name: aftercares
   label: Cuidados
   widget: markdown
-tpl:
-  section:
-  - size: xl
-    line: true
-  sections:
-  - file: base/galerias
+
 es:
   permalinks: ''
   slug: galerias

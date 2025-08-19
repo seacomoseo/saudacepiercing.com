@@ -1,0 +1,27 @@
+name: Cabecera
+bi: intro.jpg
+full: true
+size: md
+box:
+  cols: 2
+  gap: 5
+  align_y: center
+boxes:
+- fit: 1.1
+  boxes:
+  - image: base/icon-animation.svg
+    fit: .75
+    fit_vs: .75
+  - title: Saudace Piercing
+    hn: p
+    hs: 2
+    line: false
+    subtitle: '& Fine Jewelry'
+    params:
+    - from: header.md
+      to: md
+- fit: .9
+  image: intro.webm#mute
+params:
+- from: header.hanchor
+  to: hanchor

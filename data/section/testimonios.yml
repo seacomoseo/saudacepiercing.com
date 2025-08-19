@@ -1,0 +1,23 @@
+name: Testimonios
+
+params:
+- from: feedback.title
+  to: title
+- from: feedback.subtitle
+  to: subtitle
+- from: feedback.reviews
+  to: reviews
+
+review:
+  cols: 3
+  color: white
+  slider: true
+  time: 8
+
+boxes:
+- params:
+  - from: feedback.label
+    to: label
+  pin: google
+  link: https://g.page/r/CQsVjy4qsR1NEBM/review
+  lock: true

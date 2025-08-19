@@ -1,0 +1,20 @@
+name: Servicios
+box:
+  cols: 3
+  gap_vs: 2
+  color: dark
+  inset: true
+  # gray: true
+  ratio: 16/9
+  hs: 3
+  line: true
+  pin: eye
+params:
+- from: services.title
+  to: title
+- from: services.subtitle
+  to: subtitle
+- from: services.label
+  to: box.label
+- from: services.boxes
+  to: boxes

@@ -1,0 +1,86 @@
+name: Características
+
+params:
+- from: features.title
+  to: title
+- from: features.subtitle
+  to: subtitle
+
+box:
+  duo: 2
+  gap: 5
+  gap_vs: 3
+  parallax: soft
+  ratio: 1/1
+  align: left
+  align_y: center
+  line: true
+  hs: 3
+boxes:
+
+- bi: trabajando/2022-09-01-00-00-02.webp
+  rate: 1/1
+- params:
+  - from: features.safe.title
+    to: title
+  - from: features.safe.subtitle
+    to: subtitle
+  - from: features.safe.md
+    to: md
+
+- image: trabajando/2024-01-17-14-07-33.jpg
+- params:
+  - from: features.consulting.title
+    to: title
+  - from: features.consulting.subtitle
+    to: subtitle
+  - from: features.consulting.md
+    to: md
+
+- image: joyeria/mix/2024-01-30-16-57-57.jpg
+- params:
+  - from: features.better.title
+    to: title
+  - from: features.better.subtitle
+    to: subtitle
+  - from: features.better.md
+    to: md
+
+- bi: local/aftercare.jpg
+  rate: 1/1
+- params:
+  - from: features.aftercare.title
+    to: title
+  - from: features.aftercare.subtitle
+    to: subtitle
+  - from: features.aftercare.md
+    to: md
+
+
+modal:
+  size: xl
+  color: dark
+  line: true
+modals:
+
+- step:
+    border: invert
+    line: true
+  params:
+  - from: features.praxis.title
+    to: title
+  - from: features.praxis.subtitle
+    to: subtitle
+  - from: features.praxis.steps
+    to: steps
+
+- step:
+    border: invert
+    line: true
+  params:
+  - from: features.healings.title
+    to: title
+  - from: features.healings.subtitle
+    to: subtitle
+  - from: features.healings.steps
+    to: steps

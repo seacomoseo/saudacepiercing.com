@@ -1,0 +1,54 @@
+name: Galerías
+
+# title: '{{ param title }}'
+params:
+- from: title
+  to: title
+- from: gallery.subtitle
+  to: subtitle
+
+hn: 1
+box:
+  gap: 3
+boxes:
+
+- gallery:
+    cols: 6
+    type: cols
+    button: hide
+  params:
+  - from: gallery_cols
+    to: gallery.cols
+  - from: gallery_type
+    to: gallery.type
+  - from: images
+    to: images
+
+- if: features
+  fit: .75
+  box:
+    cols: 2
+  boxes:
+  - hn: 2
+    params:
+    - from: gallery.features
+      to: title
+    - from: features
+      to: md
+  - if: aftercares
+    hn: 2
+    params:
+    - from: gallery.aftercares
+      to: title
+    - from: aftercares
+      to: md
+
+- if: content
+  md: |
+    {{< content >}}
+
+- link: /
+  pin: house
+  params:
+  - from: gallery.label
+    to: label

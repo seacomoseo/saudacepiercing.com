@@ -1,0 +1,94 @@
+name: Micropigmentación
+
+params:
+- from: micro.hanchor
+  to: hanchor
+- from: micro.title
+  to: title
+- from: micro.subtitle
+  to: subtitle
+- from: micro.md
+  to: md
+
+node: div
+boxes:
+
+- box:
+    cols: 2
+    gap: 5
+    ratio: 1/1
+    align_y: center
+  boxes:
+  - order: 2
+    image: micropigmentacion/labios-antes-despues.jpg
+  - align: left
+    align_vl: right
+    hs: 3
+    params:
+    - from: micro.lips.hanchor
+      to: hanchor
+    - from: micro.lips.title
+      to: title
+    - from: micro.lips.subtitle
+      to: subtitle
+    - from: micro.lips.md
+      to: md
+
+- box:
+    cols: 2
+    gap: 5
+    ratio: 1/1
+    align_y: center
+  boxes:
+  - image: micropigmentacion/ojos-despues.jpg
+  - align: left
+    hs: 3
+    params:
+    - from: micro.eyes.hanchor
+      to: hanchor
+    - from: micro.eyes.title
+      to: title
+    - from: micro.eyes.subtitle
+      to: subtitle
+    - from: micro.eyes.md
+      to: md
+
+- box:
+    cols: 2
+    gap: 5
+    ratio: 1/1
+    align_y: center
+  boxes:
+  - order: 2
+    image: micropigmentacion/capilar-antes-despues.jpg
+  - align: left
+    align_vl: right
+    hs: 3
+    params:
+    - from: micro.head.hanchor
+      to: hanchor
+    - from: micro.head.title
+      to: title
+    - from: micro.head.subtitle
+      to: subtitle
+    - from: micro.head.md
+      to: md
+
+- box:
+    cols: 2
+    gap: 5
+    ratio: 1/1
+    align_y: center
+  boxes:
+  - image: micropigmentacion/cejas-antes-despues.jpg
+  - align: left
+    hs: 3
+    params:
+    - from: micro.brows.hanchor
+      to: hanchor
+    - from: micro.brows.title
+      to: title
+    - from: micro.brows.subtitle
+      to: subtitle
+    - from: micro.brows.md
+      to: md

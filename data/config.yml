@@ -9,3 +9,16 @@ cms:
   logo: base/icon.svg
 others:
   show: true
+params:
+- name: gallery
+  label: Galerías
+  type: object
+  params:
+  - var: box_subtitle
+    label: Galería
+  - name: features
+    label: Características
+  - name: aftercares
+    label: Cuidados
+  - name: box_button_label
+    label: Inicio

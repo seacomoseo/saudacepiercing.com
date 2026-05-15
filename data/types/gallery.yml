@@ -2,7 +2,6 @@ title: Galerías
 base: service
 icon: rectangle-history
 emoji: 📁
-noindex: false
 
 tpl:
   section:
@@ -27,12 +26,12 @@ params:
   widget: markdown
 
 es:
-  permalinks: ''
+  permalinks: /
   slug: galerias
   singular: Galería
   title: Galerías
 en:
-  permalinks: ''
+  permalinks: /
   slug: galleries
   singular: Gallery
   title: Galleries

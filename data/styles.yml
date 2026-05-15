@@ -3,10 +3,6 @@ icons:
   sharp: true
   emojis: false
   play: youtube-iframe
-  up: ''
-  down: ''
-  left: ''
-  right: ''
 fonts:
   base:
     google: false
@@ -32,7 +28,7 @@ fonts:
     italic: false
     line_height: 1.25
     size: 1
-    top: 0.125
+    top: 0
   blockquote_cursive: true
 colors:
   main:

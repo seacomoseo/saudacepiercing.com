@@ -1,5 +1,5 @@
 ---
-slug: home
+slug: /
 title: Home
 image: base/poster.png
 summary: Studio specialized in body piercing with safe piercings and biocompatible jewelry in Murcia center. We offer custom designs and post-piercing follow-up. We also perform toothgems, jewelry anodizing and micropigmentation.
@@ -29,7 +29,7 @@ org:
   - Saudace Piercing & Fine Jewelry
   - Saudace Piercing & Fine Jewelry 🧷👂🏻
   - Saudace Piercing 🧷👂🏻
-  description: ''
+  description: null
   legal: Andrea Marín Escribano
   nif: 48746856N
   email: info@saudacepiercing.com
@@ -60,11 +60,11 @@ org:
   - Murcia
   schedule:
   - days:
-    - monday
-    - tuesday
-    - wednesday
-    - thursday
-    - friday
+      mon: true
+      tue: true
+      wed: true
+      thu: true
+      fri: true
     hours:
     - open: 11:00
       close: 14:00
@@ -88,10 +88,10 @@ org:
     description: Transform the color of your jewelry with our safe and high quality anodizing service.
     link: https://saudacepiercing.com/en/anodizing/
     area: Murcia
-  - title: Micropigmentation
-    description: We offer micropigmentation to enhance your natural beauty in a lasting and personalized way.
-    link: https://saudacepiercing.com/en/micropigmentation/
-    area: Murcia
+  # - title: Micropigmentation
+  #   description: We offer micropigmentation to enhance your natural beauty in a lasting and personalized way.
+  #   link: https://saudacepiercing.com/en/micropigmentation/
+  #   area: Murcia
     
 header:
   hanchor: Piercing Shop in Murcia Center
@@ -107,7 +107,7 @@ services:
   subtitle: You will love them
   label: See works
   boxes:
-  - image: trabajando/2022-09-01-00-00-01.webp
+  - image: piercing/poster.jpg
     title: Body Piercing
     md: We perform safe piercings in various areas, always with aseptic techniques and biocompatible jewelry.
     link: /en/body-piercing/
@@ -123,10 +123,10 @@ services:
     title: Jewelry Anodizing
     md: Transform the color of your jewelry with our safe and high quality anodizing service.
     link: /en/anodizing/
-  - image: micropigmentacion/cejas.jpg
-    title: Micropigmentation
-    md: We offer micropigmentation to enhance your natural beauty in a lasting and personalized way.
-    link: /en/micropigmentation/
+  # - image: micropigmentacion/cejas.jpg
+  #   title: Micropigmentation
+  #   md: We offer micropigmentation to enhance your natural beauty in a lasting and personalized way.
+  #   link: /en/micropigmentation/
 
 features:
   title: Features

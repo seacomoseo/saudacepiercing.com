@@ -3,7 +3,7 @@ tpl:
   bg:
     color: dark
   menu:
-    hide: true
+    # hide: true
     color: dark
     sticky: auto
     transparent: true

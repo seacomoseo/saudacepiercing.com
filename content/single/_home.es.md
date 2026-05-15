@@ -29,7 +29,7 @@ org:
   - Saudace Piercing & Fine Jewelry
   - Saudace Piercing & Fine Jewelry 🧷👂🏻
   - Saudace Piercing 🧷👂🏻
-  description: ''
+  description: null
   legal: Andrea Marín Escribano
   nif: 48746856N
   email: info@saudacepiercing.com
@@ -60,11 +60,11 @@ org:
   - Murcia
   schedule:
   - days:
-    - monday
-    - tuesday
-    - wednesday
-    - thursday
-    - friday
+      mon: true
+      tue: true
+      wed: true
+      thu: true
+      fri: true
     hours:
     - open: 11:00
       close: 14:00
@@ -88,10 +88,10 @@ org:
     description: Transforma el color de tu joyería con nuestro servicio de anodizado, seguro y de alta calidad.
     link: https://saudacepiercing.com/anodizado/
     area: Murcia
-  - title: Micropigmentación
-    description: Ofrecemos micropigmentación para realzar tu belleza natural de forma duradera y personalizada.
-    link: https://saudacepiercing.com/micropigmentacion/
-    area: Murcia
+  # - title: Micropigmentación
+  #   description: Ofrecemos micropigmentación para realzar tu belleza natural de forma duradera y personalizada.
+  #   link: https://saudacepiercing.com/micropigmentacion/
+  #   area: Murcia
 
 header:
   hanchor: Tienda de Piercing en Murcia Centro
@@ -107,7 +107,7 @@ services:
   subtitle: Te encantarán
   label: Ver trabajos
   boxes:
-  - image: trabajando/2022-09-01-00-00-01.webp
+  - image: piercing/poster.jpg
     title: Body Piercing
     md: Realizamos piercings seguros en diversas zonas, siempre con técnicas asépticas y joyería biocompatible.
     link: /body-piercing/
@@ -123,10 +123,10 @@ services:
     title: Anodizado de Joyería
     md: Transforma el color de tu joyería con nuestro servicio de anodizado, seguro y de alta calidad.
     link: /anodizado/
-  - image: micropigmentacion/cejas.jpg
-    title: Micropigmentación
-    md: Ofrecemos micropigmentación para realzar tu belleza natural de forma duradera y personalizada.
-    link: /micropigmentacion/
+  # - image: micropigmentacion/cejas.jpg
+  #   title: Micropigmentación
+  #   md: Ofrecemos micropigmentación para realzar tu belleza natural de forma duradera y personalizada.
+  #   link: /micropigmentacion/
 
 features:
   title: Características

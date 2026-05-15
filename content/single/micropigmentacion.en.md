@@ -5,6 +5,8 @@ image: base/poster.png
 seo: Micropigmentation and Microblanding in Murcia 🧷👂🏻 Saudace Piercing
 description: llll➤ We offer lip, hair, eyebrow and eyeliner micropigmentation ✅ to enhance your natural beauty in a lasting and personalized way.
 
+draft: true
+
 tpl:
   sections:
   - file: micropigmentacion

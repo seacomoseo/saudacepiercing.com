@@ -1,14 +1,15 @@
 name: Servicios
+size: xl
 box:
-  cols: 3
+  cols: 4
   gap_vs: 2
   color: dark
   inset: true
-  # gray: true
   ratio: 16/9
   hs: 3
   line: true
   pin: eye
+  card: true
 params:
 - from: services.title
   to: title

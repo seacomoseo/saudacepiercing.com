@@ -1,2 +1,2 @@
 # 2026-05-15
-/micropigmentacion/ /
+/micropigmentacion/ / 301

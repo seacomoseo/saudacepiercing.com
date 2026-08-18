@@ -1,9 +1,10 @@
 ---
 slug: micropigmentation
 title: Micropigmentation
-image: base/poster.png
-seo: Micropigmentation and Microblanding in Murcia 🧷👂🏻 Saudace Piercing
-description: llll➤ We offer lip, hair, eyebrow and eyeliner micropigmentation ✅ to enhance your natural beauty in a lasting and personalized way.
+img: /u/base/poster.png
+seo:
+  title: Micropigmentation and Microblanding in Murcia 🧷👂🏻 Saudace Piercing
+  desc: llll➤ We offer lip, hair, eyebrow and eyeliner micropigmentation ✅ to enhance your natural beauty in a lasting and personalized way.
 
 draft: true
 
@@ -19,12 +20,12 @@ service_areas:
 micro:
   hanchor: Micropigmentation and Microblading in Murcia, Spain
   title: Micropigmentation
-  subtitle: and Microblanding
+  sub: and Microblanding
   md: Define your style with Precision
   lips:
     hanchor: Lip Micropigmentation in Murcia
     title: Lips
-    subtitle: Lip Micropigmentation
+    sub: Lip Micropigmentation
     md: |
       This technique is ideal for balancing small asymmetries and redesigning the contour of your lips.
 
@@ -36,7 +37,7 @@ micro:
   eyes:
     hanchor: Eyeliner in Murcia (Spain)
     title: Eyes
-    subtitle: Eyeliner
+    sub: Eyeliner
     md: |
       Are you tired of applying makeup every day?
 
@@ -48,7 +49,7 @@ micro:
   head:
     hanchor: Hair Micropigmentation in Murcia
     title: Head
-    subtitle: Hair Micropigmentation
+    sub: Hair Micropigmentation
     md: |
       Do you want to hide a scar or fill in a gap?
 
@@ -58,7 +59,7 @@ micro:
   brows:
     hanchor: Micropigmentation in Eyebrows in Murcia
     title: Eyebrows
-    subtitle: Micropigmentation in Eyebrows
+    sub: Micropigmentation in Eyebrows
     md: |
       Choose the technique that best suits your style:
 

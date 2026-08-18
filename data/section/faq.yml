@@ -1,9 +1,10 @@
 name: FAQ
 size: md
-params:
-- from: faq.title
-  to: title
-- from: faq.subtitle
-  to: subtitle
-- from: faq.accordions
-  to: accordions
+boxes:
+- get:
+  - from: faq.title
+    to: title
+  - from: faq.sub
+    to: sub
+  - from: faq.faqs
+    to: faqs

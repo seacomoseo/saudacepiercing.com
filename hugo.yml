@@ -2,10 +2,11 @@ baseURL: https://saudacepiercing.com
 buildFuture: true
 theme: [sansoul]
 params:
+  owner: seacomoseo
   domain: saudacepiercing.com
   name: saudacepiercing
   netlify_id: fad372ed-6490-4fc7-ae61-129b98d4bd1f
   netlify_hook: NjZlYmYxNzQ1ZjFjY2I2NmZjMTYxNDEwCg==
   cloudflare_id: 
-  drive_link: https://drive.google.com/file/d/1YRoCxIyVc5WJxpTGCcf8Rx-Hmiz8ZDgq
+  drive_url: https://drive.google.com/file/d/1YRoCxIyVc5WJxpTGCcf8Rx-Hmiz8ZDgq
   drive_mails: saudacepiercing@gmail.com

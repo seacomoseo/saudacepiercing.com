@@ -1,18 +1,15 @@
 name: Micropigmentación
-
-params:
-- from: micro.hanchor
-  to: hanchor
-- from: micro.title
-  to: title
-- from: micro.subtitle
-  to: subtitle
-- from: micro.md
-  to: md
-
 node: div
 boxes:
-
+- get:
+  - from: micro.hanchor
+    to: hanchor
+  - from: micro.title
+    to: title
+  - from: micro.sub
+    to: sub
+  - from: micro.md
+    to: md
 - box:
     cols: 2
     gap: 5
@@ -20,39 +17,37 @@ boxes:
     align_y: center
   boxes:
   - order: 2
-    image: micropigmentacion/labios-antes-despues.jpg
+    img: /u/micropigmentacion/labios-antes-despues.jpg
   - align: left
     align_vl: right
     hs: 3
-    params:
+    get:
     - from: micro.lips.hanchor
       to: hanchor
     - from: micro.lips.title
       to: title
-    - from: micro.lips.subtitle
-      to: subtitle
+    - from: micro.lips.sub
+      to: sub
     - from: micro.lips.md
       to: md
-
 - box:
     cols: 2
     gap: 5
     ratio: 1/1
     align_y: center
   boxes:
-  - image: micropigmentacion/ojos-despues.jpg
+  - img: /u/micropigmentacion/ojos-despues.jpg
   - align: left
     hs: 3
-    params:
+    get:
     - from: micro.eyes.hanchor
       to: hanchor
     - from: micro.eyes.title
       to: title
-    - from: micro.eyes.subtitle
-      to: subtitle
+    - from: micro.eyes.sub
+      to: sub
     - from: micro.eyes.md
       to: md
-
 - box:
     cols: 2
     gap: 5
@@ -60,35 +55,34 @@ boxes:
     align_y: center
   boxes:
   - order: 2
-    image: micropigmentacion/capilar-antes-despues.jpg
+    img: /u/micropigmentacion/capilar-antes-despues.jpg
   - align: left
     align_vl: right
     hs: 3
-    params:
+    get:
     - from: micro.head.hanchor
       to: hanchor
     - from: micro.head.title
       to: title
-    - from: micro.head.subtitle
-      to: subtitle
+    - from: micro.head.sub
+      to: sub
     - from: micro.head.md
       to: md
-
 - box:
     cols: 2
     gap: 5
     ratio: 1/1
     align_y: center
   boxes:
-  - image: micropigmentacion/cejas-antes-despues.jpg
+  - img: /u/micropigmentacion/cejas-antes-despues.jpg
   - align: left
     hs: 3
-    params:
+    get:
     - from: micro.brows.hanchor
       to: hanchor
     - from: micro.brows.title
       to: title
-    - from: micro.brows.subtitle
-      to: subtitle
+    - from: micro.brows.sub
+      to: sub
     - from: micro.brows.md
       to: md

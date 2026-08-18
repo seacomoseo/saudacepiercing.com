@@ -1,10 +1,11 @@
 ---
-slug: inicio
+slug: /
 title: Inicio
-image: base/poster.png
-summary: Estudio especializado en body piercing con perforaciones seguras y joyería biocompatible en Murcia centro. Ofrecemos diseños personalizados y seguimiento post-perforación. También realizamos toothgems, anodizado de joyería y micropigmentación.
-seo: Saudace Piercing & Fine Jewelry 🧷👂🏻 Tienda en Murcia Centro
-description: llll➤ Estudio especializado en body piercing. ✅ Perforaciones Seguras, Joyería Biocompatible, Diseños Personalizados, Seguimiento, Toothgems, Anodizado...
+img: /u/base/poster.png
+sum: Estudio especializado en body piercing con perforaciones seguras y joyería biocompatible en Murcia centro. Ofrecemos diseños personalizados y seguimiento post-perforación. También realizamos toothgems, anodizado de joyería y micropigmentación.
+seo:
+  title: Saudace Piercing & Fine Jewelry 🧷👂🏻 Tienda en Murcia Centro
+  desc: llll➤ Estudio especializado en body piercing. ✅ Perforaciones Seguras, Joyería Biocompatible, Diseños Personalizados, Seguimiento, Toothgems, Anodizado...
 
 tpl:
   menu:
@@ -12,7 +13,7 @@ tpl:
     logo: false
     auto: same
   sections:
-  - file: _header
+  - file: _hero
   - file: servicios
   - file: caracteristicas
   - file: sobre-mi
@@ -29,18 +30,18 @@ org:
   - Saudace Piercing & Fine Jewelry
   - Saudace Piercing & Fine Jewelry 🧷👂🏻
   - Saudace Piercing 🧷👂🏻
-  description: null
+  desc: null
   legal: Andrea Marín Escribano
   nif: 48746856N
-  email: info@saudacepiercing.com
-  logo: base/poster.svg
-  images:
-  - base/poster.svg
-  - base/poster-alt.svg
-  - intro.jpg
-  - trabajando/andrea.jpg
-  - trabajando/2024-09-24-20-52-03.jpg
-  - trabajando/2024-01-19-17-49-30.jpg
+  mail: info@saudacepiercing.com
+  logo: /u/base/poster.svg
+  imgs:
+  - /u/base/poster.svg
+  - /u/base/poster-alt.svg
+  - /u/intro.jpg
+  - /u/trabajando/andrea.jpg
+  - /u/trabajando/2024-09-24-20-52-03.jpg
+  - /u/trabajando/2024-01-19-17-49-30.jpg
   as:
   - https://www.instagram.com/saudace_piercing/
   - https://www.instagram.com/andrea_bodypiercer_/
@@ -48,17 +49,17 @@ org:
   phones:
   - +34 667 53 52 48
   address:
-    name: Saudace Piercing & Fine Jewelry
+  - name: Saudace Piercing & Fine Jewelry
     street: C. Merced, 14
     pc: '30001'
     locality: Murcia
     region: Región de Murcia
     country: ES
     geo: '{"type":"Point","coordinates":[-1.1275327,37.9874351]}'
-    link: https://maps.google.com/?cid=5556792309972931851
+    url: https://maps.google.com/?cid=5556792309972931851
   areas:
   - Murcia
-  schedule:
+  when:
   - days:
       mon: true
       tue: true
@@ -73,67 +74,67 @@ org:
   prices: null
   services:
   - title: Body Piercing
-    description: Realizamos piercings seguros en diversas zonas, siempre con técnicas asépticas y joyería biocompatible.
-    link: https://saudacepiercing.com/body-piercing/
+    desc: Realizamos piercings seguros en diversas zonas, siempre con técnicas asépticas y joyería biocompatible.
+    url: https://saudacepiercing.com/body-piercing/
     area: Murcia
   - title: Diseños Personalizados
-    description: Crea tu look único con diseños personalizados para tus orejas, adaptados a tu estilo y personalidad.
-    link: https://saudacepiercing.com/disenos-personalizados/
+    desc: Crea tu look único con diseños personalizados para tus orejas, adaptados a tu estilo y personalidad.
+    url: https://saudacepiercing.com/disenos-personalizados/
     area: Murcia
   - title: Toothgems / Gemas Dentales
-    description: Decora tu sonrisa con nuestras gemas dentales. Un proceso indoloro y no invasivo que te da un toque especial.
-    link: https://saudacepiercing.com/toothgems/
+    desc: Decora tu sonrisa con nuestras gemas dentales. Un proceso indoloro y no invasivo que te da un toque especial.
+    url: https://saudacepiercing.com/toothgems/
     area: Murcia
   - title: Anodizado de Joyería
-    description: Transforma el color de tu joyería con nuestro servicio de anodizado, seguro y de alta calidad.
-    link: https://saudacepiercing.com/anodizado/
+    desc: Transforma el color de tu joyería con nuestro servicio de anodizado, seguro y de alta calidad.
+    url: https://saudacepiercing.com/anodizado/
     area: Murcia
   # - title: Micropigmentación
-  #   description: Ofrecemos micropigmentación para realzar tu belleza natural de forma duradera y personalizada.
-  #   link: https://saudacepiercing.com/micropigmentacion/
+  #   desc: Ofrecemos micropigmentación para realzar tu belleza natural de forma duradera y personalizada.
+  #   url: https://saudacepiercing.com/micropigmentacion/
   #   area: Murcia
 
-header:
+hero:
   hanchor: Tienda de Piercing en Murcia Centro
   md: |
-    ==:sign-simple: **Estudio Especializado en Body Piercing**==
+    ==::svg:sign-simple:: **Estudio Especializado en Body Piercing**==
 
     Técnica aséptica, aguja americana, joyería biocompatible y **exclusiva**
 
-    [[:sparkle: Pide tu cita]](#contacto)
+    [[::auto_awesome:: Pide tu cita]](#contacto)
 
 services:
   title: Servicios
-  subtitle: Te encantarán
+  sub: Te encantarán
   label: Ver trabajos
   boxes:
-  - image: piercing/poster.jpg
+  - img: /u/piercing/poster.jpg
     title: Body Piercing
     md: Realizamos piercings seguros en diversas zonas, siempre con técnicas asépticas y joyería biocompatible.
-    link: /body-piercing/
-  - image: piercing/disenos-personalizados/2024-09-24-20-24-18.jpg
+    url: /body-piercing/
+  - img: /u/piercing/disenos-personalizados/2024-09-24-20-24-18.jpg
     title: Diseños Personalizados
     md: Crea tu look único con diseños personalizados para tus orejas, adaptados a tu estilo y personalidad.
-    link: /disenos-personalizados/
-  - image: toothgems/2024-09-24-20-56-29.jpg
+    url: /disenos-personalizados/
+  - img: /u/toothgems/2024-09-24-20-56-29.jpg
     title: Toothgems
     md: Decora tu sonrisa con nuestras gemas dentales. Proceso indoloro y no invasivo que te da un toque especial.
-    link: /toothgems/
-  - image: joyeria/anodizado/poster.jpg
+    url: /toothgems/
+  - img: /u/joyeria/anodizado/poster.jpg
     title: Anodizado de Joyería
     md: Transforma el color de tu joyería con nuestro servicio de anodizado, seguro y de alta calidad.
-    link: /anodizado/
-  # - image: micropigmentacion/cejas.jpg
+    url: /anodizado/
+  # - img: /u/micropigmentacion/cejas.jpg
   #   title: Micropigmentación
   #   md: Ofrecemos micropigmentación para realzar tu belleza natural de forma duradera y personalizada.
-  #   link: /micropigmentacion/
+  #   url: /micropigmentacion/
 
 features:
   title: Características
-  subtitle: Lo que me diferencia
+  sub: Lo que me diferencia
   safe:
     title: Piercings Seguros
-    subtitle: Y con los mejores materiales
+    sub: Y con los mejores materiales
     md: |
       Saudace piercing es un estudio creado para dar el lugar que se merece al body piercing en nuestra ciudad, donde se aplican los estandares necesarios para realizar un piercing de forma segura.
 
@@ -141,10 +142,10 @@ features:
 
       Mi praxis a la hora de trabajar se basa en utilizar un conjunto de técnicas que dan paso a una perforación segura, como la técnica aséptica con aguja americana. Además, única y exclusivamente trabajo con joyería biocompatible.
 
-      [[:sparkles: Ver Praxis]](#praxis)
+      [[::auto_awesome:: Ver Praxis]](#praxis)
   consulting:
     title: Asesoramiento
-    subtitle: Te guiaré con mucho gusto
+    sub: Te guiaré con mucho gusto
     md: |
       El piercing es una técnica milenaria y hay que tratarlo con muchísimo respeto, si no se hace por un/a profesional puede tener consecuencias irreversibles.
 
@@ -154,42 +155,42 @@ features:
 
       También puedes inspirarte con los trabajos que encontrarás en esta página.
 
-      [[:eye: Ver Trabajos]](/body-piercing/)
+      [[::visibility:: Ver Trabajos]](/body-piercing/)
   better:
     title: La mejor joyería
-    subtitle: Trabajo exclusivamente con joyería biocompatible
+    sub: Trabajo exclusivamente con joyería biocompatible
     md: |
       La cuál asegurará tu cicatrización. Utilizo materiales como el titanio grado implante certificado ASTMF136, oro de 14k y 18k, niobio y vidrio de borosilicato.
 
       Dispongo de joyería en stock para todos los gustos. Desde engarces, ciconias, ópalos o opal stone (piedras naturales) de todos los colores y diferentes formas.
 
-      [[:gem: Ver Joyería]](/joyeria/)
+      [[::diamond:: Ver Joyería]](/joyeria/)
   aftercare:
     title: Curaciones / Aftercare
-    subtitle: Cuida tu perforación
+    sub: Cuida tu perforación
     md: |
       Mi trabajo no acaba cuando realice tu perforación, si no que haremos un **seguimiento** y estaré disponible para ti, hasta que tu perforación esté totalmente sana.
 
       Aquí tienes algunos consejos para cuidar de tu nueva perforación.
 
-      [[:hand-holding-medical: Ver curaciones]](#curaciones)
+      [[::local_hospital:: Ver curaciones]](#curaciones)
   praxis:
     title: Praxis
-    subtitle: Conoce mi forma de trabajar
+    sub: Conoce mi forma de trabajar
     steps:
-    - icon: hand-sparkles
+    - icon: approval_delegation
       title: Técnica Aséptica
       md: |
         Todo el material que utilizo está previamente esterilizado, siguiendo un conjunto de medidas que pueden realizarse en forma separada o combinada, dependiendo del procedimiento clínico, y que se deben cumplir para mantener la esterilidad durante el proceso de la perforación, garantizando la bioseguridad.
-    - icon: pen
+    - icon: edit
       title: Aguja Americana
       md: |
         Utilizo únicamente Aguja Americana. Esta aguja especial para el body piercing, permite perforar de un modo más rápido y limpio, lo que se traduce en menos dolor, menor inflamación y proceso de curación más rápido.
-    - icon: gem
+    - icon: diamond
       title: Joyería Biocompatible
       md: |
         Trabajo únicamente con materiales biocompatibles como el titanio,oro,niobio y vidrio de borosilicato para minimizar el riesgo de rechazos y asegurar la curación, los materiales biocompatibles son los que como su nombre indica son compatibles con el cuerpo.
-    - icon: hand-holding-medical
+    - icon: local_hospital
       title: Después de mi Nueva Perforación
       md: |
         Una vez terminada la cita te daré unos tips sencillos sobre cómo realizar la curación de tu nuevo piercing y concretaremos unas citas para hacer un seguimiento de la perforación.
@@ -199,38 +200,38 @@ features:
         Para asegurar que recibas un buen servicio y que no tengas que esperar, te recomendamos que pidas [cita previa](#contacto), ya que al trabajar en diferentes estudios mi horario es irregular.
   healings:
     title: Curaciones
-    subtitle: Consejos de Cuidado
+    sub: Consejos de Cuidado
     steps:
-    - icon: hands-bubbles
+    - icon: soap
       title: Mantén la Higiene
       md: Lávate las manos antes de tocar tu piercing y limpia la nueva perforación con tu aftercare y gasas estériles.
-    - icon: virus-slash
+    - icon: coronavirus
       title: Evita el Contacto
       md: No toques ni gires el piercing sin necesidad. Esto puede causar irritación y aumentar el riesgo de infección.
-    - icon: list-check
+    - icon: checklist
       title: Sigue las Instrucciones
       md: Siempre sigue las instrucciones que te proporcionaré durante tu cita para asegurar una correcta cicatrización.
-    - icon: heart-pulse
+    - icon: cardiology
       title: Control de la Inflamación
       md: Es normal que haya algo de inflamación en los primeros días. Si persiste o empeora, contáctame para una revisión.
-    - icon: hand-sparkles
+    - icon: approval_delegation
       title: Cuidado Regular
       md: Realiza limpiezas diarias y mantén el piercing alejado de productos irritantes como perfumes o cremas.
 
 about:
   title: Sobre mí
-  subtitle: ¿Quién es Saudace?
+  sub: ¿Quién es Saudace?
   md: |
-    **Soy ==:sign-simple: Andrea Marín==, anilladora y dueña del local Saudace Piercing.**
+    **Soy ==::svg:sign-simple:: Andrea Marín==, anilladora y dueña del local Saudace Piercing.**
 
     Tengo 27 años y me dedico al body piercing profesionalmente desde 2017, aunque mis intereses e inquietudes por esta profesión surgieron mucho antes, cuando empecé a perforar de forma esporádica a conocidos con 15 añitos, hasta el 2017, que fué cuando me surmergí de lleno en esta profesión y descubrí que el body piercing es mi pasión y una parte imprescincible de mi vida...
 
-    [[:plus: Leer más…]](#mas-sobre-mi)
+    [[::add:: Leer más…]](#mas-sobre-mi)
   modal:
     title: Más Sobre Mí
-    subtitle: ¿Quién soy?
+    sub: ¿Quién soy?
     md: |
-      **Soy ==:sign-simple: Andrea Marín==, anilladora y dueña del local Saudace Piercing.**
+      **Soy ==::svg:sign-simple:: Andrea Marín==, anilladora y dueña del local Saudace Piercing.**
 
       Tengo 27 años y me dedico al body piercing profesionalmente desde 2017, aunque mis intereses e inquietudes por esta profesión surgieron mucho antes, cuando empecé a perforar de forma esporádica a conocidos con 15 añitos, hasta el 2017, que fué cuando me surmergí de lleno en esta profesión y descubrí que el body piercing es mi pasión y una parte imprescincible de mi vida.
 
@@ -242,12 +243,12 @@ about:
 
       Abrí las puertas de mi propio local el 17 de diciembre de 2024, ya que después de una vida laboral nómada, quería volver a asentarme en mi ciudad y darle el espacio que se merece esta profesión.
 
-      [[:instagram: @saudace_piercing]](https://www.instagram.com/saudace_piercing/ "[nofollow swap]")
-      [[:instagram: @andrea_bodypiercer_]](https://www.instagram.com/andrea_bodypiercer_/ "[nofollow swap]")
+      [[::brand:instagram:: @saudace_piercing]](https://www.instagram.com/saudace_piercing/ "[nofollow swap]")
+      [[::brand:instagram:: @andrea_bodypiercer_]](https://www.instagram.com/andrea_bodypiercer_/ "[nofollow swap]")
 
 feedback:
   title: Testimonios
-  subtitle: Cositas bonitas que me decís ^^
+  sub: Cositas bonitas que me decís ^^
   label: Ver más en Google
   reviews:
   - title: N. Rodriguez
@@ -256,7 +257,7 @@ feedback:
 
       Se ha convertido en mi estudio de confianza cada vez que quiero un piercing nuevo!
     date: 2024-09-08 07:11:27
-    image: https://lh3.googleusercontent.com/a/ACg8ocIW4v_v4YF6fUoK-elXb4RcNO8uzL8wH9d0XxLmixVQcGUPJA=s136
+    img: https://lh3.googleusercontent.com/a/ACg8ocIW4v_v4YF6fUoK-elXb4RcNO8uzL8wH9d0XxLmixVQcGUPJA=s136
   - title: Ruben M.
     md: |
       Local nuevo en el centro de Murcia.
@@ -269,7 +270,7 @@ feedback:
 
       Ya he recomendado el lugar a varias personas para anillarse próximamente.
     date: 2024-01-12 08:05:38
-    image: https://lh3.googleusercontent.com/a-/ALV-UjWo5BYVmYG2QlzvNHoLGmn-j3QeJGruo0WQxSrqq9xzbpEEy67v=s136
+    img: https://lh3.googleusercontent.com/a-/ALV-UjWo5BYVmYG2QlzvNHoLGmn-j3QeJGruo0WQxSrqq9xzbpEEy67v=s136
   - title: Clara M.
     md: |
       Andrea es una profesional de primera.
@@ -282,7 +283,7 @@ feedback:
 
       La recomiendo 😁🥰🥰
     date: 2024-07-22 19:35:59
-    image: https://lh3.googleusercontent.com/a-/ALV-UjWsJJcZir56RaCtRsTzV31AaMce_zKA9gQwgapJW1W4W0prE9yt=s136
+    img: https://lh3.googleusercontent.com/a-/ALV-UjWsJJcZir56RaCtRsTzV31AaMce_zKA9gQwgapJW1W4W0prE9yt=s136
   - title: Yole
     md: |
       Me hice el de la ceja y el Bridge.
@@ -291,7 +292,7 @@ feedback:
 
       Si estáis en Murcia y queréis un trabajo profesional, venid aquí.
     date: 2024-09-04 11:34:10
-    image: https://lh3.googleusercontent.com/a-/ALV-UjWDF-0delOo4bAGvHxGRIrPLqyHS6ShPXkrz7sX25d3y_pkOFY=s136
+    img: https://lh3.googleusercontent.com/a-/ALV-UjWDF-0delOo4bAGvHxGRIrPLqyHS6ShPXkrz7sX25d3y_pkOFY=s136
   - title: Isabel P.
     md: |
       No es la primera vez que me había hecho un piercing, pero la verdad que con este último supero las expectativas de los anteriores.
@@ -300,12 +301,12 @@ feedback:
 
       El local es muy bonito, os lo recomiendo sitio fiable y de calidad. 👌
     date: 2024-06-27 16:06:09
-    image: https://lh3.googleusercontent.com/a/ACg8ocKkz2k1ZyPCgiCGGz5NvGRs-EVBleNrvy360VESHQ9HzncnwQ=s136
+    img: https://lh3.googleusercontent.com/a/ACg8ocKkz2k1ZyPCgiCGGz5NvGRs-EVBleNrvy360VESHQ9HzncnwQ=s136
 
 faq:
   title: FAQ
-  subtitle: Preguntas Frecuentes
-  accordions:
+  sub: Preguntas Frecuentes
+  faqs:
   - title: ¿Es seguro hacerse un piercing?
     md: Sí, en Saudace garantizamos la seguridad de cada perforación. Utilizamos técnicas asépticas y joyería biocompatible, minimizando cualquier riesgo de infección o rechazo. [Mira mi praxis](#praxis).
   - title: ¿Qué materiales utilizáis para los piercings?
@@ -331,7 +332,7 @@ faq:
 
 contact:
   title: Contacto
-  subtitle: ¡Cuéntame tus ideas!
+  sub: ¡Cuéntame tus ideas!
   days: Lunes a Viernes
   meet: Cita directa
 ---

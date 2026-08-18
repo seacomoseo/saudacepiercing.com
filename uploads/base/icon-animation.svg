@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
 <style>
   @keyframes drop-piercings {
-   0% {
-     transform: rotate(15deg);
-     opacity: 0;
+    0% {
+      transform: rotate(15deg);
+      opacity: 0;
     }
   }
 
   @keyframes hang-piercings {
-   0% {
-     transform: rotate(var(--rotate));
+    0% {
+      transform: rotate(var(--rotate));
     }
   }
 
@@ -31,9 +31,9 @@
   }
 
   @keyframes drop-dots {
-   0% {
-     transform: scale(0.9);
-     opacity: 0;
+    0% {
+      transform: scale(0.9);
+      opacity: 0;
     }
   }
 
@@ -44,46 +44,44 @@
     animation-fill-mode: both;
     animation-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
   }
-  :root {
-   --dash: 57em;
-   --rotate: 15deg;
-  }
 
   #logo-piercings {
-   animation-name: drop-piercings;
-   animation-duration: 0.7s;
-   transform-origin: center 5em;
+    animation-name: drop-piercings;
+    animation-duration: 0.7s;
+    transform-origin: center 5em;
   }
   #logo-piercing-bottom {
-   animation-name: hang-piercings;
-   animation-duration: 1.7s;
-   animation-delay: 0.3s;
-   animation-iteration-count: infinite;
-   animation-direction: alternate;
-   animation-timing-function: ease-in-out;
-   transform-origin: top;
-   transform: rotate(calc(-1 * var(--rotate)));
+    --rotate: 15deg;
+    animation-name: hang-piercings;
+    animation-duration: 1.7s;
+    animation-delay: 0.3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    transform-origin: top;
+    transform: rotate(calc(-1 * var(--rotate)));
   }
   #logo-cross-border {
-   stroke-dasharray: var(--dash);
-   opacity: 0;
-   animation-name: stroke-border;
-   animation-duration: 2.4s;
-   animation-delay: 0s;
+    --dash: 57em;
+    stroke-dasharray: var(--dash);
+    opacity: 0;
+    animation-name: stroke-border;
+    animation-duration: 2.4s;
+    animation-delay: 0s;
   }
   #logo-cross {
-   animation-name: show;
-   animation-duration: 0.7s;
-   animation-delay: 1s;
+    animation-name: show;
+    animation-duration: 0.7s;
+    animation-delay: 1s;
   }
   #logo-dots-in,
   #logo-dots-out {
-   animation-name: drop-dots;
-   animation-duration: 0.3s;
-   animation-delay: 1s;
+    animation-name: drop-dots;
+    animation-duration: 0.3s;
+    animation-delay: 1s;
   }
   #logo-dots-out {
-   animation-delay: 1.2s;
+    animation-delay: 1.2s;
   }
 </style>
 <g id="logo" fill="var(--main,#fdc31e)">

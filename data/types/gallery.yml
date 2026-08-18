@@ -1,37 +1,11 @@
 title: Galerías
 base: service
-icon: rectangle-history
+icon: cards_star
 emoji: 📁
-
 tpl:
   section:
   - size: xl
-    line: true
+    box:
+      line: true
   sections:
   - file: galerias
-
-params:
-- name: gallery_cols
-  label: Nº de Columnas de la Galería
-  widget: int
-- name: images
-  label: Imágenes de la Galería
-  widget: image
-  multiple: true
-- name: features
-  label: Características
-  widget: markdown
-- name: aftercares
-  label: Cuidados
-  widget: markdown
-
-es:
-  permalinks: /
-  slug: galerias
-  singular: Galería
-  title: Galerías
-en:
-  permalinks: /
-  slug: galleries
-  singular: Gallery
-  title: Galleries

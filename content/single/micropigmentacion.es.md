@@ -1,9 +1,10 @@
 ---
 slug: micropigmentacion
 title: Micropigmentación
-image: base/poster.png
-seo: Micropigmentación y Microblanding en Murcia 🧷👂🏻 Saudace Piercing
-description: llll➤ Ofrecemos micropigmentación labial, capilar, en cejas y Eyeliner ✅ para realzar tu belleza natural de forma duradera y personalizada.
+img: /u/base/poster.png
+seo:
+  title: Micropigmentación y Microblanding en Murcia 🧷👂🏻 Saudace Piercing
+  desc: llll➤ Ofrecemos micropigmentación labial, capilar, en cejas y Eyeliner ✅ para realzar tu belleza natural de forma duradera y personalizada.
 
 draft: true
 
@@ -19,12 +20,12 @@ service_areas:
 micro:
   hanchor: Micropigmentación y Microblanding en Murcia
   title: Micropigmentación
-  subtitle: y Microblanding
+  sub: y Microblanding
   md: Define tu estilo con Precisión
   lips:
     hanchor: Micropigmentación Labial en Murcia
     title: Labios
-    subtitle: Micropigmentación Labial
+    sub: Micropigmentación Labial
     md: |
       Esta técnica es ideal para equilibrar pequeñas asimetrías y rediseñar el contorno de tus labios.
 
@@ -36,7 +37,7 @@ micro:
   eyes:
     hanchor: Delineado de ojos (Eyeliner) en Murcia
     title: Ojos
-    subtitle: Delineado de ojos (Eyeliner)
+    sub: Delineado de ojos (Eyeliner)
     md: |
       ¿Estás cansada de maquillarte todos los días?
 
@@ -48,7 +49,7 @@ micro:
   head:
     hanchor: Micropigmentación Capilar en Murcia
     title: Cabeza
-    subtitle: Micropigmentación Capilar
+    sub: Micropigmentación Capilar
     md: |
       ¿Quieres disimular alguna cicatriz o rellenar algún hueco?
 
@@ -58,7 +59,7 @@ micro:
   brows:
     hanchor: Micropigmentación en Cejas en Murcia
     title: Cejas
-    subtitle: Micropigmentación en Cejas
+    sub: Micropigmentación en Cejas
     md: |
       Elige que ténica va más con tu estilo:
 

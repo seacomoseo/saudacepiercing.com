@@ -1,21 +1,22 @@
 name: Servicios
 size: xl
-box:
-  cols: 4
-  gap_vs: 2
-  color: dark
-  inset: true
-  ratio: 16/9
-  hs: 3
-  line: true
-  pin: eye
-  card: true
-params:
-- from: services.title
-  to: title
-- from: services.subtitle
-  to: subtitle
-- from: services.label
-  to: box.label
-- from: services.boxes
-  to: boxes
+boxes:
+- get:
+  - from: services.title
+    to: title
+  - from: services.sub
+    to: sub
+  - from: services.label
+    to: box.label
+  - from: services.boxes
+    to: boxes
+  box:
+    cols: 4
+    gap_vs: 2
+    color: dark
+    inset: true
+    ratio: 16/9
+    hs: 3
+    line: true
+    pin: visibility
+    card: true

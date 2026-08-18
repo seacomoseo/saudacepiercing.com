@@ -1,13 +1,16 @@
-// Header
+@use 'css/variables' as *;
+@use 'css/mixins' as *;
+
+// Hero
 @keyframes logo-intro {
   0%,
   75% {
     transform: translate(var(--logo-x, 0em), calc(50vh - 50% - var(--logo-y, 10em))) scale(var(--logo-z, 1.5));
   }
 }
-#body-home #header {
+#body-home #hero {
   .box--1 {
-    .image {
+    .img {
       animation: logo-intro 2s 0s both;
       @media (min-width: $viewport-xl) {
         --logo-x: 13em;
@@ -16,31 +19,31 @@
       }
     }
   }
-  // .box--1 .image              { @include show-from(0); --show-from: scale(3); }
+  // .box--1 .img              { @include show-from(0); --show-from: scale(3); }
   @mixin show-from($delay) { animation: show-from .5s (1.5s + .125s * $delay) both; }
   .box--1 .box__title        { @include show-from(1); }
-  .box--1 .subtitle          { @include show-from(2); }
+  .box--1 .sub               { @include show-from(2); }
   .box--1 .md p:nth-child(1) { @include show-from(3); }
   .box--1 .md p:nth-child(2) { @include show-from(4); }
-  .box--1 .md .buttons       { @include show-from(5); }
+  .box--1 .md .btns          { @include show-from(5); }
   .box--2                    { @include show-from(5); }
 }
 // Contacto
 @media (min-width: $viewport-lg) {
-  .contact > *:not(.contact__full) {
+  .links > *:not(.full) {
     width: calc((100% - 1em) / 2);
   }
 }
 
 // Transparent gradient in person
-[src="/media/trabajando/andrea.png"],
-[src="/media/trabajando/2024-01-19-17-49-30.png"] {
-  --mask-image: linear-gradient(#000 85%, transparent);
-  -webkit-mask-image: var(--mask-image);
-  mask-image: var(--mask-image);
+[src="/u/trabajando/andrea.png"],
+[src="/u/trabajando/2024-01-19-17-49-30.png"] {
+  --mask-img: linear-gradient(#000 85%, transparent);
+  -webkit-mask-image: var(--mask-img);
+  mask-image: var(--mask-img);
 }
-// [src="/media/trabajando/2024-09-24-20-52-03.png"] {
-//   --mask-image: radial-gradient(ellipse at -100% 0%, #000 70%, transparent 81%);
-//   -webkit-mask-image: var(--mask-image);
-//   mask-image: var(--mask-image);
+// [src="/u/trabajando/2024-09-24-20-52-03.png"] {
+//   --mask-img: radial-gradient(ellipse at -100% 0%, #000 70%, transparent 81%);
+//   -webkit-mask-image: var(--mask-img);
+//   mask-image: var(--mask-img);
 // }

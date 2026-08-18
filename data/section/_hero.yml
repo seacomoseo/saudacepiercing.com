@@ -1,0 +1,29 @@
+name: Hero
+bi: /u/intro.jpg
+full: true
+size: md
+boxes:
+- box:
+    cols: 2
+    gap: 5
+    align_y: center
+  get:
+  - from: hero.hanchor
+    to: hanchor
+  boxes:
+  - fit: 1.1
+    boxes:
+    - img: /u/base/icon-animation.svg
+      fit: 0.75
+      fit_vs: 0.75
+    - title: Saudace Piercing
+      hn: p
+      hs: 2
+      line: false
+      sub: '& Fine Jewelry'
+      get:
+      - from: hero.md
+        to: md
+  - fit: 0.9
+    vid: /u/intro.webm
+    mute: true

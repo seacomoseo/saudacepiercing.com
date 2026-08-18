@@ -1,8 +1,11 @@
 icons:
-  type: light
-  sharp: true
-  emojis: false
-  play: youtube-iframe
+  fill: false
+  weight: 300
+  grade: 0
+  optical: 24
+  style: sharp
+  def:
+    play: svg:youtube-iframe
 fonts:
   base:
     google: false
@@ -19,7 +22,6 @@ fonts:
     italic: false
     line_height: 1.25
     size: 1
-    top: 0
   title:
     google: false
     family: Amika Blackletter
@@ -28,14 +30,13 @@ fonts:
     italic: false
     line_height: 1.25
     size: 1
-    top: 0
   blockquote_cursive: true
 colors:
   main:
     color: '#fdc31e'
     light: ''
     dark: ''
-    contrast:
+    turn:
       fill: false
       in: true
       text: true
@@ -43,7 +44,7 @@ colors:
     color: ''
     light: ''
     dark: ''
-    contrast:
+    turn:
       fill: true
       in: true
       text: true
@@ -51,7 +52,7 @@ colors:
     color: ''
     light: ''
     dark: ''
-    contrast:
+    turn:
       fill: false
       in: true
       text: true
@@ -64,9 +65,9 @@ colors:
 rounded:
   radius: 1.33
   chamfer: true
-buttons:
-  sides_round: false
-  dot_circle: false
+btns:
+  pill: false
+  disc: false
   deep: false
   outline: true
   font:

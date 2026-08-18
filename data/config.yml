@@ -1,24 +1,3 @@
-langs:
-- lang: es
-  title: Saudace Piercing & Fine Jewelry
-  description: Estudio especializado en body piercing con perforaciones seguras y joyería biocompatible en Murcia centro. Ofrecemos diseños personalizados y seguimiento post-perforación. También realizamos toothgems, anodizado de joyería y micropigmentación.
-  google_analytics: G-K4DF7MGMRZ
-- lang: en
-  description: Studio specialized in body piercing with safe piercings and biocompatible jewelry in Murcia center. We offer custom designs and post-piercing follow-up. We also perform toothgems, jewelry anodizing and micropigmentation.
-cms:
-  logo: base/icon.svg
-others:
-  show: true
-params:
-- name: gallery
-  label: Galerías
-  widget: object
-  params:
-  - var: box_subtitle
-    label: Galería
-  - name: features
-    label: Características
-  - name: aftercares
-    label: Cuidados
-  - var: box_button_label
-    label: Inicio
+ga4: G-K4DF7MGMRZ
+cms_logo: /u/base/icon.svg
+show: true

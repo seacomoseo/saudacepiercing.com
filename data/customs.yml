@@ -1,0 +1,201 @@
+- name: gallery
+  label: Galerías
+  widget: dict
+  sub:
+  - var: sub
+    label: Galería
+  - name: features
+    label: Características
+  - name: aftercares
+    label: Cuidados
+  - var: label
+    label: Inicio
+- types: [ gallery ]
+  name: gallery_cols
+  label: Nº de Columnas de la Galería
+  widget: int
+- types: [ gallery ]
+  name: images
+  label: Imágenes de la Galería
+  widget: img
+  multi: true
+- types: [ gallery ]
+  name: features
+  label: Características
+  widget: md
+- types: [ gallery ]
+  name: aftercares
+  label: Cuidados
+  widget: md
+- types: [ single ]
+  pages:
+  - _home
+  name: hero
+  label: Cabecera
+  widget: dict
+  sub:
+  - var: hanchor
+  - var: md
+- types: [ single ]
+  pages:
+  - _home
+  name: services
+  label: Servicios
+  widget: dict
+  sub:
+  - var: title
+  - var: sub
+  - var: label
+  - name: boxes
+    label: Elementos
+    widget: dict
+    sub:
+    - var: image
+    - var: title
+    - var: md
+    - var: url
+- types: [ single ]
+  pages:
+  - _home
+  name: features
+  label: Características
+  widget: dict
+  sub:
+  - var: title
+  - var: sub
+  - name: safe
+    label: Seguridad
+    widget: dict
+    sub:
+    - var: title
+    - var: sub
+    - var: md
+  - name: consulting
+    label: Asesoramiento
+    widget: dict
+    sub:
+    - var: title
+    - var: sub
+    - var: md
+  - name: better
+    label: Mejor
+    widget: dict
+    sub:
+    - var: title
+    - var: sub
+    - var: md
+  - name: aftercare
+    label: Aftercare
+    widget: dict
+    sub:
+    - var: title
+    - var: sub
+    - var: md
+  - name: praxis
+    label: Praxis
+    widget: dict
+    sub:
+    - var: title
+    - var: sub
+    - var: steps
+  - name: healings
+    label: Curaciones
+    widget: dict
+    sub:
+    - var: title
+    - var: sub
+    - var: steps
+- types: [ single ]
+  pages:
+  - _home
+  name: about
+  label: Sobre mí
+  widget: dict
+  sub:
+  - var: title
+  - var: sub
+  - var: md
+  - name: modal
+    label: Popup
+    widget: dict
+    sub:
+    - var: title
+    - var: sub
+    - var: md
+- types: [ single ]
+  pages:
+  - _home
+  name: feedback
+  label: Testimonios
+  widget: dict
+  sub:
+  - var: title
+  - var: sub
+  - var: label
+  - var: reviews
+- types: [ single ]
+  pages:
+  - _home
+  name: faq
+  label: FAQ
+  widget: dict
+  sub:
+  - var: title
+  - var: sub
+  - var: faqs
+- types: [ single ]
+  pages:
+  - _home
+  name: contact
+  label: Contacto
+  widget: dict
+  sub:
+  - var: title
+  - var: sub
+  - name: days
+    label: Días
+  - name: meet
+    label: Texto enlace cita
+- types: [ single ]
+  pages:
+  - micropigmentacion
+  name: micro
+  label: Servicios
+  widget: dict
+  sub:
+  - var: hanchor
+  - var: title
+  - var: sub
+  - var: md
+  - name: lips
+    label: Labios
+    widget: dict
+    sub:
+    - var: hanchor
+    - var: title
+    - var: sub
+    - var: md
+  - name: eyes
+    label: Ojos
+    widget: dict
+    sub:
+    - var: hanchor
+    - var: title
+    - var: sub
+    - var: md
+  - name: head
+    label: Cabeza
+    widget: dict
+    sub:
+    - var: hanchor
+    - var: title
+    - var: sub
+    - var: md
+  - name: brows
+    label: Cejas
+    widget: dict
+    sub:
+    - var: hanchor
+    - var: title
+    - var: sub
+    - var: md

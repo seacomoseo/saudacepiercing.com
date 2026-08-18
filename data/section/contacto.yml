@@ -1,61 +1,47 @@
 name: Contacto
-
-params:
-- from: contact.title
-  to: title
-- from: contact.subtitle
-  to: subtitle
-
-menu_button: cta
-box:
-  cols: 2
-  gap: 3
-  align_y: center
+menu_btn: cta
 boxes:
-- fit: 1.3
-  contact:
-  - type: schedule
-    days: '{{ param contact.days }}'
-    hours: 11:00 - 14:00 y 17:00 - 20:00
-    full: true
-  - type: phone
-    label: '{{ param org.phones.0 }}'
-  - type: whatsapp
-    label: '{{ param org.phones.0 }}'
-  - type: custom
-    icon: instagram
-    label: '@saudace_piercing'
-    link: https://www.instagram.com/saudace_piercing/
-    lock: true
-    button: invert
-    swap: true
-    ga4: true
-  - type: custom
-    icon: calendar
-    label: '{{ param contact.meet }}'
-    link: https://inkoru.com/SCkjCb
-    lock: true
-    ga4: true
-  # - type: mail
-  #   label: info@saudacepiercing.com
-  - type: address
-    label: '{{ param org.address.street }}, {{ param org.address.pc }} {{ param org.address.locality }}'
-    anchor: '{{ address-url }}'
-    button: invert
-  # inputs:
-  # - type: text
-  #   name: Nombre
-  #   required: true
-  # - type: tel
-  #   name: Teléfono
-  # - type: email
-  #   name: Email
-  #   required: true
-  # - type: textarea
-  #   name: Mensaje
-  #   required: true
-- fit: .7
-  rate: 3/2
-  geos:
-  - type: point
-    geo: '{"type":"Point","coordinates":[-1.1275327,37.9874351]}'
+- box:
+    cols: 2
+    gap: 3
+    align_y: center
+  get:
+  - from: contact.title
+    to: title
+  - from: contact.sub
+    to: sub
+  boxes:
+  - fit: 1.3
+    when:
+    - days: '{{ get contact.days }}'
+      hours: 11:00 - 14:00 y 17:00 - 20:00
+      full: true
+      links: null
+    links:
+    - type: phone
+      label: '{{ get org.phones.0 }}'
+    - type: whatsapp
+      label: '{{ get org.phones.0 }}'
+    - type: custom
+      icon: brand:instagram
+      label: '@saudace_piercing'
+      url: https://www.instagram.com/saudace_piercing/
+      lock: true
+      btn: turn
+      swap: true
+      ga4: true
+    - type: custom
+      icon: calendar_today
+      label: '{{ get contact.meet }}'
+      url: https://inkoru.com/SCkjCb
+      lock: true
+      ga4: true
+    - type: address
+      label: '{{ get org.address.0.street }}, {{ get org.address.0.pc }} {{ get org.address.0.locality }}'
+      anchor: '{{ address-url }}'
+      btn: turn
+  - fit: 0.7
+    rate: 3/2
+    geos:
+    - type: point
+      geo: '{"type":"Point","coordinates":[-1.1275327,37.9874351]}'

@@ -1,10 +1,11 @@
 ---
 slug: /
 title: Home
-image: base/poster.png
-summary: Studio specialized in body piercing with safe piercings and biocompatible jewelry in Murcia center. We offer custom designs and post-piercing follow-up. We also perform toothgems, jewelry anodizing and micropigmentation.
-seo: Saudace Piercing & Fine Jewelry 🧷👂🏻 Shop in Murcia Center
-description: llll➤ Studio specialized in body piercing. ✅ Safe Piercings, Biocompatible Jewelry, Custom Designs, Tracking, Toothgems, Anodized...
+img: /u/base/poster.png
+sum: Studio specialized in body piercing with safe piercings and biocompatible jewelry in Murcia center. We offer custom designs and post-piercing follow-up. We also perform toothgems, jewelry anodizing and micropigmentation.
+seo:
+  title: Saudace Piercing & Fine Jewelry 🧷👂🏻 Shop in Murcia Center
+  desc: llll➤ Studio specialized in body piercing. ✅ Safe Piercings, Biocompatible Jewelry, Custom Designs, Tracking, Toothgems, Anodized...
 
 tpl:
   menu:
@@ -12,7 +13,7 @@ tpl:
     logo: false
     auto: same
   sections:
-  - file: _header
+  - file: _hero
   - file: servicios
   - file: caracteristicas
   - file: sobre-mi
@@ -29,18 +30,18 @@ org:
   - Saudace Piercing & Fine Jewelry
   - Saudace Piercing & Fine Jewelry 🧷👂🏻
   - Saudace Piercing 🧷👂🏻
-  description: null
+  desc: null
   legal: Andrea Marín Escribano
   nif: 48746856N
-  email: info@saudacepiercing.com
-  logo: base/poster.svg
-  images:
-  - base/poster.svg
-  - base/poster-alt.svg
-  - intro.jpg
-  - trabajando/andrea.jpg
-  - trabajando/2024-09-24-20-52-03.jpg
-  - trabajando/2024-01-19-17-49-30.jpg
+  mail: info@saudacepiercing.com
+  logo: /u/base/poster.svg
+  imgs:
+  - /u/base/poster.svg
+  - /u/base/poster-alt.svg
+  - /u/intro.jpg
+  - /u/trabajando/andrea.jpg
+  - /u/trabajando/2024-09-24-20-52-03.jpg
+  - /u/trabajando/2024-01-19-17-49-30.jpg
   as:
   - https://www.instagram.com/saudace_piercing/
   - https://www.instagram.com/andrea_bodypiercer_/
@@ -48,17 +49,17 @@ org:
   phones:
   - +34 667 53 52 48
   address:
-    name: Saudace Piercing & Fine Jewelry
+  - name: Saudace Piercing & Fine Jewelry
     street: C. Merced, 14
     pc: '30001'
     locality: Murcia
     region: Región de Murcia
     country: ES
     geo: '{"type":"Point","coordinates":[-1.1275327,37.9874351]}'
-    link: https://maps.google.com/?cid=5556792309972931851
+    url: https://maps.google.com/?cid=5556792309972931851
   areas:
   - Murcia
-  schedule:
+  when:
   - days:
       mon: true
       tue: true
@@ -73,67 +74,67 @@ org:
   prices: null
   services:
   - title: Body Piercing
-    description: We perform safe piercings in various areas, always with aseptic techniques and biocompatible jewelry.
-    link: https://saudacepiercing.com/en/body-piercing/
+    desc: We perform safe piercings in various areas, always with aseptic techniques and biocompatible jewelry.
+    url: https://saudacepiercing.com/en/body-piercing/
     area: Murcia
   - title: Custom Designs
-    description: Create your unique look with personalized designs for your ears, adapted to your style and personality.
-    link: https://saudacepiercing.com/en/custom-designs/
+    desc: Create your unique look with personalized designs for your ears, adapted to your style and personality.
+    url: https://saudacepiercing.com/en/custom-designs/
     area: Murcia
   - title: Toothgems
-    description: Decorate your smile with our dental gems. A painless and non-invasive process that gives you a special touch.
-    link: https://saudacepiercing.com/en/toothgems/
+    desc: Decorate your smile with our dental gems. A painless and non-invasive process that gives you a special touch.
+    url: https://saudacepiercing.com/en/toothgems/
     area: Murcia
   - title: Jewelry Anodizing
-    description: Transform the color of your jewelry with our safe and high quality anodizing service.
-    link: https://saudacepiercing.com/en/anodizing/
+    desc: Transform the color of your jewelry with our safe and high quality anodizing service.
+    url: https://saudacepiercing.com/en/anodizing/
     area: Murcia
   # - title: Micropigmentation
-  #   description: We offer micropigmentation to enhance your natural beauty in a lasting and personalized way.
-  #   link: https://saudacepiercing.com/en/micropigmentation/
+  #   desc: We offer micropigmentation to enhance your natural beauty in a lasting and personalized way.
+  #   url: https://saudacepiercing.com/en/micropigmentation/
   #   area: Murcia
-    
-header:
+
+hero:
   hanchor: Piercing Shop in Murcia Center
   md: |
-    ==:sign-simple: **Studio Specializing in Body Piercing**==
+    ==::svg:sign-simple:: **Studio Specializing in Body Piercing**==
 
     Aseptic technique, American needle, biocompatible and **exclusive** jewelry.
 
-    [[:sparkle: Make an appointment]](#contact)
+    [[::auto_awesome:: Make an appointment]](#contact)
 
 services:
   title: Services
-  subtitle: You will love them
+  sub: You will love them
   label: See works
   boxes:
-  - image: piercing/poster.jpg
+  - img: /u/piercing/poster.jpg
     title: Body Piercing
     md: We perform safe piercings in various areas, always with aseptic techniques and biocompatible jewelry.
-    link: /en/body-piercing/
-  - image: piercing/disenos-personalizados/2024-09-24-20-24-18.jpg
+    url: /en/body-piercing/
+  - img: /u/piercing/disenos-personalizados/2024-09-24-20-24-18.jpg
     title: Custom Designs
     md: Create your unique look with personalized designs for your ears, adapted to your style and personality.
-    link: /en/custom-designs/
-  - image: toothgems/2024-09-24-20-56-29.jpg
+    url: /en/custom-designs/
+  - img: /u/toothgems/2024-09-24-20-56-29.jpg
     title: Toothgems
     md: Decorate your smile with our dental gems. Painless and non-invasive process that gives you a special touch.
-    link: /en/toothgems/
-  - image: joyeria/anodizado/poster.jpg
+    url: /en/toothgems/
+  - img: /u/joyeria/anodizado/poster.jpg
     title: Jewelry Anodizing
     md: Transform the color of your jewelry with our safe and high quality anodizing service.
-    link: /en/anodizing/
-  # - image: micropigmentacion/cejas.jpg
+    url: /en/anodizing/
+  # - img: /u/micropigmentacion/cejas.jpg
   #   title: Micropigmentation
   #   md: We offer micropigmentation to enhance your natural beauty in a lasting and personalized way.
-  #   link: /en/micropigmentation/
+  #   url: /en/micropigmentation/
 
 features:
   title: Features
-  subtitle: What sets me apart
+  sub: What sets me apart
   safe:
     title: Safe Piercings
-    subtitle: And with the best materials
+    sub: And with the best materials
     md: |
       Saudace piercing is a studio created to give the place it deserves to the body piercing in our city, where the necessary standards are applied to perform a piercing safely.
 
@@ -141,10 +142,10 @@ features:
 
       My working praxis is based on using a set of techniques that lead to a safe piercing, such as the aseptic technique with an American needle. In addition, I only and exclusively work with biocompatible jewelry.
 
-      [[:sparkles: See Praxis]](#praxis)
+      [[::auto_awesome:: See Praxis]](#praxis)
   consulting:
     title: Advice
-    subtitle: I will be happy to guide you
+    sub: I will be happy to guide you
     md: |
       The piercing is an ancient technique and must be treated with great respect, if it is not done by a professional it can have irreversible consequences.
 
@@ -154,42 +155,42 @@ features:
 
       You can also get inspired by the works you will find on this page.
 
-      [[:eye: See Works]](/en/body-piercing/)
+      [[::visibility:: See Works]](/en/body-piercing/)
   better:
     title: The best jewelry
-    subtitle: I work exclusively with biocompatible jewelry
+    sub: I work exclusively with biocompatible jewelry
     md: |
       Which will ensure your healing. I use materials such as ASTMF136 certified implant grade titanium, 14k and 18k gold, niobium and borosilicate glass.
 
       I have jewelry in stock to suit all tastes. From settings, cyconias, opals or opal stone (natural stones) of all colors and different shapes.
 
-      [[:gem: See Jewelry]](/en/jewelry/)
+      [[::diamond:: See Jewelry]](/en/jewelry/)
   aftercare:
     title: Aftercares
-    subtitle: Take care of your piercing
+    sub: Take care of your piercing
     md: |
       My work does not end when I make your piercing, but we will do a **follow up** and I will be available for you, until your piercing is completely healthy.
 
       Here are some tips to take care of your new piercing.
 
-      [[:hand-holding-medical: See aftercares]](#aftercares)
+      [[::local_hospital:: See aftercares]](#aftercares)
   praxis:
     title: Praxis
-    subtitle: Get to know the way I work
+    sub: Get to know the way I work
     steps:
-    - icon: hand-sparkles
+    - icon: approval_delegation
       title: Aseptic Technique
       md: |
         All the material I use is previously sterilized, following a set of measures that can be performed separately or combined, depending on the clinical procedure, and that must be fulfilled to maintain sterility during the drilling process, guaranteeing biosafety.
-    - icon: pen
+    - icon: edit
       title: American Needle
       md: |
         I use only American Needle. This special needle for body piercing, allows a faster and cleaner piercing, which translates into less pain, less inflammation and faster healing process.
-    - icon: gem
+    - icon: diamond
       title: Biocompatible Jewelry
       md: |
         I only work with biocompatible materials such as titanium, gold, niobium and borosilicate glass to minimize the risk of rejection and ensure healing. Biocompatible materials are those that are compatible with the body.
-    - icon: hand-holding-medical
+    - icon: local_hospital
       title: After my New Piercing
       md: |
         Once the appointment is over I will give you some simple tips on how to perform the healing of your new piercing and we will make some appointments to follow up on the piercing.
@@ -199,38 +200,38 @@ features:
         To ensure that you receive a good service and that you do not have to wait, we recommend that you ask for [appointment](#contact), since I work in different studios and my schedule is irregular.
   healings:
     title: Aftercares
-    subtitle: Care Tips
+    sub: Care Tips
     steps:
-    - icon: hands-bubbles
+    - icon: soap
       title: Maintain Hygiene
       md: Wash your hands before touching your piercing and clean the new piercing with your aftercare and sterile gauze.
-    - icon: virus-slash
+    - icon: coronavirus
       title: Avoid Contact
       md: Do not touch or twist the piercing unnecessarily. This can cause irritation and increase the risk of infection.
-    - icon: list-check
+    - icon: checklist
       title: Follow the Instructions
       md: Always follow the instructions I will provide during your appointment to ensure proper healing.
-    - icon: heart-pulse
+    - icon: cardiology
       title: Inflammation Control
       md: Some swelling is normal for the first few days. If it persists or worsens, contact me for a check-up.
-    - icon: hand-sparkles
+    - icon: approval_delegation
       title: Regular Care
       md: Perform daily cleanings and keep the piercing away from irritating products such as perfumes or creams.
 
 about:
   title: About me
-  subtitle: Who is Saudace?
+  sub: Who is Saudace?
   md: |
-    **I am ==:sign-simple: Andrea Marín==, ring piercer and owner of Saudace Piercing.**
+    **I am ==::svg:sign-simple:: Andrea Marín==, ring piercer and owner of Saudace Piercing.**
 
     I am 27 years old and I dedicate myself to body piercing professionally since 2017, although my interests and concerns for this profession came much earlier, when I started to pierce sporadically to acquaintances with 15 years old, until 2017, which was when I fully emerged in this profession and discovered that body piercing is my passion and an indispensable part of my life….
 
-    [[:plus: Read more…]](#more-about-me)
+    [[::add:: Read more…]](#more-about-me)
   modal:
     title: More About Me
-    subtitle: Who am I?
+    sub: Who am I?
     md: |
-      **I am ==:sign-simple: Andrea Marín==, ring piercer and owner of Saudace Piercing.
+      **I am ==::svg:sign-simple:: Andrea Marín==, ring piercer and owner of Saudace Piercing.
 
       I am 27 years old and I dedicate myself to body piercing professionally since 2017, although my interests and concerns for this profession arose long before, when I began to pierce sporadically to acquaintances with 15 years old, until 2017, which was when I fully immersed myself in this profession and discovered that body piercing is my passion and an imprescincible part of my life.
 
@@ -242,12 +243,12 @@ about:
 
       I opened the doors of my own place on December 17, 2024, because after a nomadic working life, I wanted to settle back in my city and give this profession the space it deserves.
 
-      [[:instagram: @saudace_piercing]](https://www.instagram.com/saudace_piercing/ "[nofollow swap]")
-      [[:instagram: @andrea_bodypiercer_]](https://www.instagram.com/andrea_bodypiercer_/ "[nofollow swap]")
+      [[::brand:instagram:: @saudace_piercing]](https://www.instagram.com/saudace_piercing/ "[nofollow swap]")
+      [[::brand:instagram:: @andrea_bodypiercer_]](https://www.instagram.com/andrea_bodypiercer_/ "[nofollow swap]")
 
 feedback:
   title: Testimonials
-  subtitle: Nice things you tell me ^^
+  sub: Nice things you tell me ^^
   label: See more on Google
   reviews:
   - title: N. Rodriguez
@@ -256,7 +257,7 @@ feedback:
 
       It has become my trusted studio every time I want a new piercing!
     date: 2024-09-08 07:11:27
-    image: https://lh3.googleusercontent.com/a/ACg8ocIW4v_v4YF6fUoK-elXb4RcNO8uzL8wH9d0XxLmixVQcGUPJA=s136
+    img: https://lh3.googleusercontent.com/a/ACg8ocIW4v_v4YF6fUoK-elXb4RcNO8uzL8wH9d0XxLmixVQcGUPJA=s136
   - title: Ruben M.
     md: |
       New place in the center of Murcia.
@@ -269,7 +270,7 @@ feedback:
 
       I have already recommended the place to several people to be banded soon.
     date: 2024-01-12 08:05:38
-    image: https://lh3.googleusercontent.com/a-/ALV-UjWo5BYVmYG2QlzvNHoLGmn-j3QeJGruo0WQxSrqq9xzbpEEy67v=s136
+    img: https://lh3.googleusercontent.com/a-/ALV-UjWo5BYVmYG2QlzvNHoLGmn-j3QeJGruo0WQxSrqq9xzbpEEy67v=s136
   - title: Clara M.
     md: |
       Andrea is a first class professional.
@@ -282,7 +283,7 @@ feedback:
 
       I recommend her 😁🥰🥰😁🥰.
     date: 2024-07-22 19:35:59
-    image: https://lh3.googleusercontent.com/a-/ALV-UjWsJJcZir56RaCtRsTzV31AaMce_zKA9gQwgapJW1W4W0prE9yt=s136
+    img: https://lh3.googleusercontent.com/a-/ALV-UjWsJJcZir56RaCtRsTzV31AaMce_zKA9gQwgapJW1W4W0prE9yt=s136
   - title: Yole
     md: |
       I had my eyebrow and bridge done.
@@ -291,7 +292,7 @@ feedback:
 
       If you are in Murcia and want a professional job, come here.
     date: 2024-09-04 11:34:10
-    image: https://lh3.googleusercontent.com/a-/ALV-UjWDF-0delOo4bAGvHxGRIrPLqyHS6ShPXkrz7sX25d3y_pkOFY=s136
+    img: https://lh3.googleusercontent.com/a-/ALV-UjWDF-0delOo4bAGvHxGRIrPLqyHS6ShPXkrz7sX25d3y_pkOFY=s136
   - title: Isabel P.
     md: |
       It's not the first time I had a piercing done, but the truth is that with this last one I exceeded the expectations of the previous ones.
@@ -300,12 +301,12 @@ feedback:
 
       The place is very nice, I recommend it reliable and quality site. 👌
     date: 2024-06-27 16:06:09
-    image: https://lh3.googleusercontent.com/a/ACg8ocKkz2k1ZyPCgiCGGz5NvGRs-EVBleNrvy360VESHQ9HzncnwQ=s136
+    img: https://lh3.googleusercontent.com/a/ACg8ocKkz2k1ZyPCgiCGGz5NvGRs-EVBleNrvy360VESHQ9HzncnwQ=s136
 
 faq:
   title: FAQ
-  subtitle: Frequently Asked Questions
-  accordions:
+  sub: Frequently Asked Questions
+  faqs:
   - title: Is it safe to get a piercing?
     md: Yes, at Saudace we guarantee the safety of each piercing. We use aseptic techniques and biocompatible jewelry, minimizing any risk of infection or rejection. [See my praxis](#praxis).
   - title: What materials do you use for piercings?
@@ -331,7 +332,7 @@ faq:
 
 contact:
   title: Contact
-  subtitle: Tell me your ideas!
+  sub: Tell me your ideas!
   days: Monday to Friday
   meet: Direct appointment
 ---
